@@ -1,0 +1,21 @@
+usuario,tipo,tokens_entrada,tokens_salida,costo_real_usd,costo_equivalente_usd,latencia_s,herramientas,ok
+463,análisis automático,5529,471,0.0,0.00208875,2.06,0,True
+463,chat con re-consulta,12797,399,0.0,0.00379775,1.97,1,True
+4171,análisis automático,6734,507,0.0,0.002444,80.11,0,True
+4171,chat con re-consulta,15467,358,0.0,0.00440375,157.86,1,True
+480,análisis automático,5631,466,0.0,0.00210675,2.04,0,True
+480,chat con re-consulta,19713,375,0.0,0.00549075,2.36,2,True
+3528,análisis automático,5335,453,0.0,0.00201325,1.86,0,True
+3528,chat con re-consulta,18774,385,0.0,0.005271,2.97,2,True
+2366,análisis automático,6617,480,0.0,0.00237425,6.05,0,True
+2366,chat con re-consulta,22886,271,0.0,0.006128,8.2,2,True
+2335,análisis automático,5605,451,0.0,0.00207775,2.54,0,True
+2335,chat con re-consulta,19619,302,0.0,0.00535775,5.77,2,True
+3762,análisis automático,5719,470,0.0,0.00213475,1.86,0,True
+3762,chat con re-consulta,13238,280,0.0,0.0037295,1.67,1,True
+508,análisis automático,5448,467,0.0,0.0020625,1.97,0,True
+508,chat con re-consulta,19172,270,0.0,0.005198,2.22,2,True
+1087,análisis automático,6014,444,0.0,0.0021695,2.05,0,True
+1087,chat con re-consulta,20890,320,0.0,0.0057025,3.43,2,True
+4631,análisis automático,5841,417,0.0,0.00208575,3.78,0,True
+4631,chat con re-consulta,20238,239,0.0,0.005418,12.26,2,True
