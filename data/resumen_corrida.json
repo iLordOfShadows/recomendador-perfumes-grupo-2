@@ -1,0 +1,1041 @@
+{
+ "semilla": 42,
+ "dispositivo": "cuda",
+ "torch": "2.14.1+cu130",
+ "rondas_5core": [
+  {
+   "ronda": 0,
+   "interacciones": 1171421,
+   "usuarios": 920100,
+   "perfumes": 63650
+  },
+  {
+   "ronda": 1,
+   "interacciones": 80103,
+   "usuarios": 11489,
+   "perfumes": 13321
+  },
+  {
+   "ronda": 2,
+   "interacciones": 59042,
+   "usuarios": 10064,
+   "perfumes": 3347
+  },
+  {
+   "ronda": 3,
+   "interacciones": 46718,
+   "usuarios": 6490,
+   "perfumes": 3141
+  },
+  {
+   "ronda": 4,
+   "interacciones": 43836,
+   "usuarios": 6358,
+   "perfumes": 2418
+  },
+  {
+   "ronda": 5,
+   "interacciones": 41215,
+   "usuarios": 5701,
+   "perfumes": 2383
+  },
+  {
+   "ronda": 6,
+   "interacciones": 40445,
+   "usuarios": 5669,
+   "perfumes": 2211
+  },
+  {
+   "ronda": 7,
+   "interacciones": 39661,
+   "usuarios": 5483,
+   "perfumes": 2199
+  },
+  {
+   "ronda": 8,
+   "interacciones": 39399,
+   "usuarios": 5470,
+   "perfumes": 2145
+  },
+  {
+   "ronda": 9,
+   "interacciones": 39163,
+   "usuarios": 5416,
+   "perfumes": 2140
+  },
+  {
+   "ronda": 10,
+   "interacciones": 39112,
+   "usuarios": 5414,
+   "perfumes": 2129
+  },
+  {
+   "ronda": 11,
+   "interacciones": 39068,
+   "usuarios": 5404,
+   "perfumes": 2128
+  },
+  {
+   "ronda": 12,
+   "interacciones": 39052,
+   "usuarios": 5402,
+   "perfumes": 2126
+  },
+  {
+   "ronda": 13,
+   "interacciones": 39032,
+   "usuarios": 5398,
+   "perfumes": 2125
+  },
+  {
+   "ronda": 14,
+   "interacciones": 39032,
+   "usuarios": 5398,
+   "perfumes": 2125
+  }
+ ],
+ "base": {
+  "Interacciones": 39032,
+  "Usuarios": 5398,
+  "Perfumes": 2125
+ },
+ "genero": {
+  "Mujer": 1085,
+  "Hombre": 948,
+  "Sin dato": 80,
+  "Unisex": 12
+ },
+ "marcas": 490,
+ "con_precio": 0.76,
+ "densidad": 0.0034027417562060023,
+ "largo": {
+  "media": 7.230826231937755,
+  "mediana": 6.0,
+  "max": 115,
+  "p95": 14,
+  "recortados": 0.037236013338273435
+ },
+ "top20_concentra": 0.5920014347202296,
+ "periodo": [
+  "2004-08-21",
+  "2023-09-06"
+ ],
+ "evidencia_orden": [
+  {
+   "atributo": "Misma marca",
+   "pares consecutivos": 0.1020990664,
+   "pares al azar (mismo usuario)": 0.0754890884,
+   "razón": 1.3525009846
+  },
+  {
+   "atributo": "Mismo género",
+   "pares consecutivos": 0.6932270916,
+   "pares al azar (mismo usuario)": 0.6731581138,
+   "razón": 1.0298131708
+  }
+ ],
+ "verificacion_manual": {
+  "r": 5,
+  "objetivo": "B072F746SZ",
+  "marca": "Perry Ellis",
+  "NDCG@5": 0.38685280723454163,
+  "MRR@5": 0.2
+ },
+ "itemitem": {
+  "ultimos": 10,
+  "decaimiento": 0.8,
+  "segundos": 0.47107077700002264
+ },
+ "reglas": {
+  "soporte_canastas": 3,
+  "confianza": 0.2,
+  "n_reglas": 1792,
+  "segundos": 126.77325059600003,
+  "grilla": [
+   {
+    "soporte (canastas)": 3,
+    "confianza": 0.2,
+    "reglas": 1792,
+    "NDCG@10 val": 0.065495306,
+    "HR@10 val": 0.1143015932
+   },
+   {
+    "soporte (canastas)": 5,
+    "confianza": 0.1,
+    "reglas": 1018,
+    "NDCG@10 val": 0.0653201871,
+    "HR@10 val": 0.1241200445
+   },
+   {
+    "soporte (canastas)": 3,
+    "confianza": 0.1,
+    "reglas": 3681,
+    "NDCG@10 val": 0.0651040786,
+    "HR@10 val": 0.1331974805
+   },
+   {
+    "soporte (canastas)": 5,
+    "confianza": 0.2,
+    "reglas": 386,
+    "NDCG@10 val": 0.0622436127,
+    "HR@10 val": 0.1044831419
+   },
+   {
+    "soporte (canastas)": 2,
+    "confianza": 0.2,
+    "reglas": 5922,
+    "NDCG@10 val": 0.0616610569,
+    "HR@10 val": 0.116339385
+   },
+   {
+    "soporte (canastas)": 2,
+    "confianza": 0.3,
+    "reglas": 3072,
+    "NDCG@10 val": 0.0577312839,
+    "HR@10 val": 0.1004075584
+   },
+   {
+    "soporte (canastas)": 3,
+    "confianza": 0.3,
+    "reglas": 1159,
+    "NDCG@10 val": 0.0564205655,
+    "HR@10 val": 0.0968877362
+   },
+   {
+    "soporte (canastas)": 5,
+    "confianza": 0.05,
+    "reglas": 1680,
+    "NDCG@10 val": 0.054818737,
+    "HR@10 val": 0.1067061875
+   },
+   {
+    "soporte (canastas)": 10,
+    "confianza": 0.1,
+    "reglas": 179,
+    "NDCG@10 val": 0.0538058918,
+    "HR@10 val": 0.096146721
+   },
+   {
+    "soporte (canastas)": 10,
+    "confianza": 0.2,
+    "reglas": 63,
+    "NDCG@10 val": 0.0527019554,
+    "HR@10 val": 0.0905891071
+   },
+   {
+    "soporte (canastas)": 2,
+    "confianza": 0.1,
+    "reglas": 11165,
+    "NDCG@10 val": 0.0526581869,
+    "HR@10 val": 0.115413116
+   },
+   {
+    "soporte (canastas)": 5,
+    "confianza": 0.3,
+    "reglas": 193,
+    "NDCG@10 val": 0.0521313669,
+    "HR@10 val": 0.0905891071
+   },
+   {
+    "soporte (canastas)": 10,
+    "confianza": 0.05,
+    "reglas": 246,
+    "NDCG@10 val": 0.0517985611,
+    "HR@10 val": 0.096146721
+   },
+   {
+    "soporte (canastas)": 5,
+    "confianza": 0.01,
+    "reglas": 2090,
+    "NDCG@10 val": 0.0514471264,
+    "HR@10 val": 0.098925528
+   },
+   {
+    "soporte (canastas)": 10,
+    "confianza": 0.01,
+    "reglas": 282,
+    "NDCG@10 val": 0.050532414,
+    "HR@10 val": 0.0929974064
+   },
+   {
+    "soporte (canastas)": 10,
+    "confianza": 0.3,
+    "reglas": 13,
+    "NDCG@10 val": 0.0475618558,
+    "HR@10 val": 0.0844757318
+   },
+   {
+    "soporte (canastas)": 20,
+    "confianza": 0.2,
+    "reglas": 9,
+    "NDCG@10 val": 0.0464157993,
+    "HR@10 val": 0.0839199704
+   },
+   {
+    "soporte (canastas)": 20,
+    "confianza": 0.1,
+    "reglas": 23,
+    "NDCG@10 val": 0.0458273981,
+    "HR@10 val": 0.0839199704
+   },
+   {
+    "soporte (canastas)": 3,
+    "confianza": 0.05,
+    "reglas": 6077,
+    "NDCG@10 val": 0.0457565589,
+    "HR@10 val": 0.094294183
+   },
+   {
+    "soporte (canastas)": 20,
+    "confianza": 0.05,
+    "reglas": 32,
+    "NDCG@10 val": 0.0457545398,
+    "HR@10 val": 0.0841052242
+   },
+   {
+    "soporte (canastas)": 20,
+    "confianza": 0.01,
+    "reglas": 32,
+    "NDCG@10 val": 0.0457545398,
+    "HR@10 val": 0.0841052242
+   },
+   {
+    "soporte (canastas)": 20,
+    "confianza": 0.3,
+    "reglas": 1,
+    "NDCG@10 val": 0.0451238992,
+    "HR@10 val": 0.0822526862
+   },
+   {
+    "soporte (canastas)": 3,
+    "confianza": 0.01,
+    "reglas": 8271,
+    "NDCG@10 val": 0.0399591795,
+    "HR@10 val": 0.080585402
+   },
+   {
+    "soporte (canastas)": 2,
+    "confianza": 0.05,
+    "reglas": 17838,
+    "NDCG@10 val": 0.0324141055,
+    "HR@10 val": 0.0709522045
+   },
+   {
+    "soporte (canastas)": 2,
+    "confianza": 0.01,
+    "reglas": 25440,
+    "NDCG@10 val": 0.0260316598,
+    "HR@10 val": 0.0548351241
+   }
+  ]
+ },
+ "validacion_lineas_base": {
+  "Popularidad": {
+   "HR@5": 0.05224157095220452,
+   "NDCG@5": 0.03441197054263457,
+   "MRR@5": 0.028578485858960105,
+   "HR@10": 0.08225268618006669,
+   "NDCG@10": 0.044043650425143605,
+   "MRR@10": 0.032508806906732066,
+   "HR@20": 0.11911819192293442,
+   "NDCG@20": 0.05328588371306239,
+   "MRR@20": 0.03500414720766227
+  },
+  "Reglas": {
+   "HR@5": 0.08077065579844386,
+   "NDCG@5": 0.054778638987271325,
+   "MRR@5": 0.04617450907743608,
+   "HR@10": 0.11430159318266024,
+   "NDCG@10": 0.06549530600974374,
+   "MRR@10": 0.05052459170651094,
+   "HR@20": 0.14838829195998518,
+   "NDCG@20": 0.07405861033813914,
+   "MRR@20": 0.05284683409618886
+  }
+ },
+ "sasrec_configs": [
+  {
+   "config": "A",
+   "d": 32,
+   "bloques": 1,
+   "cabezas": 1,
+   "dropout": 0.2,
+   "parámetros": 75008,
+   "épocas": 37,
+   "mejor época": 27,
+   "NDCG@10 val": 0.0918539138,
+   "HR@10 val": 0.1637643572,
+   "tiempo (s)": 43.937017967
+  },
+  {
+   "config": "B",
+   "d": 64,
+   "bloques": 2,
+   "cabezas": 2,
+   "dropout": 0.2,
+   "parámetros": 187520,
+   "épocas": 21,
+   "mejor época": 11,
+   "NDCG@10 val": 0.0921803397,
+   "HR@10 val": 0.1659874027,
+   "tiempo (s)": 29.027935292
+  },
+  {
+   "config": "C",
+   "d": 64,
+   "bloques": 2,
+   "cabezas": 2,
+   "dropout": 0.5,
+   "parámetros": 187520,
+   "épocas": 28,
+   "mejor época": 18,
+   "NDCG@10 val": 0.0937121972,
+   "HR@10 val": 0.1696924787,
+   "tiempo (s)": 40.290043091
+  }
+ ],
+ "sasrec_elegida": "C",
+ "historias": {
+  "A": [
+   {
+    "época": 1,
+    "pérdida": 7.5378570037,
+    "NDCG@10 val": 0.0423006144,
+    "HR@10 val": 0.080585402
+   },
+   {
+    "época": 2,
+    "pérdida": 7.2006671267,
+    "NDCG@10 val": 0.0435818988,
+    "HR@10 val": 0.0820674324
+   },
+   {
+    "época": 3,
+    "pérdida": 7.0647564222,
+    "NDCG@10 val": 0.0439152152,
+    "HR@10 val": 0.081511671
+   },
+   {
+    "época": 4,
+    "pérdida": 6.9871826154,
+    "NDCG@10 val": 0.0479572741,
+    "HR@10 val": 0.0887365691
+   },
+   {
+    "época": 5,
+    "pérdida": 6.8864807252,
+    "NDCG@10 val": 0.0548606386,
+    "HR@10 val": 0.1030011115
+   },
+   {
+    "época": 6,
+    "pérdida": 6.7626048509,
+    "NDCG@10 val": 0.063102787,
+    "HR@10 val": 0.1207854761
+   },
+   {
+    "época": 7,
+    "pérdida": 6.6368626449,
+    "NDCG@10 val": 0.0667660285,
+    "HR@10 val": 0.1268988514
+   },
+   {
+    "época": 8,
+    "pérdida": 6.5266891865,
+    "NDCG@10 val": 0.0699396377,
+    "HR@10 val": 0.1294924046
+   },
+   {
+    "época": 9,
+    "pérdida": 6.435218902,
+    "NDCG@10 val": 0.0732336194,
+    "HR@10 val": 0.1339384957
+   },
+   {
+    "época": 10,
+    "pérdida": 6.3538361014,
+    "NDCG@10 val": 0.0761109266,
+    "HR@10 val": 0.1374583179
+   },
+   {
+    "época": 11,
+    "pérdida": 6.2809039724,
+    "NDCG@10 val": 0.0797167667,
+    "HR@10 val": 0.1441274546
+   },
+   {
+    "época": 12,
+    "pérdida": 6.2092413823,
+    "NDCG@10 val": 0.0822429433,
+    "HR@10 val": 0.1487587996
+   },
+   {
+    "época": 13,
+    "pérdida": 6.1464533223,
+    "NDCG@10 val": 0.0838778233,
+    "HR@10 val": 0.1506113375
+   },
+   {
+    "época": 14,
+    "pérdida": 6.0856626496,
+    "NDCG@10 val": 0.085306632,
+    "HR@10 val": 0.1520933679
+   },
+   {
+    "época": 15,
+    "pérdida": 6.0243960194,
+    "NDCG@10 val": 0.086221223,
+    "HR@10 val": 0.1550574287
+   },
+   {
+    "época": 16,
+    "pérdida": 5.9736989411,
+    "NDCG@10 val": 0.0872081116,
+    "HR@10 val": 0.1580214894
+   },
+   {
+    "época": 17,
+    "pérdida": 5.9247582912,
+    "NDCG@10 val": 0.0885334025,
+    "HR@10 val": 0.1606150426
+   },
+   {
+    "época": 18,
+    "pérdida": 5.8754428658,
+    "NDCG@10 val": 0.0882077091,
+    "HR@10 val": 0.158391997
+   },
+   {
+    "época": 19,
+    "pérdida": 5.823414405,
+    "NDCG@10 val": 0.0876305724,
+    "HR@10 val": 0.1595035198
+   },
+   {
+    "época": 20,
+    "pérdida": 5.787425009,
+    "NDCG@10 val": 0.089161855,
+    "HR@10 val": 0.1613560578
+   },
+   {
+    "época": 21,
+    "pérdida": 5.746845054,
+    "NDCG@10 val": 0.0886540032,
+    "HR@10 val": 0.1598740274
+   },
+   {
+    "época": 22,
+    "pérdida": 5.7165919831,
+    "NDCG@10 val": 0.0891764569,
+    "HR@10 val": 0.159318266
+   },
+   {
+    "época": 23,
+    "pérdida": 5.6808180445,
+    "NDCG@10 val": 0.0887260132,
+    "HR@10 val": 0.1585772508
+   },
+   {
+    "época": 24,
+    "pérdida": 5.6424598408,
+    "NDCG@10 val": 0.0882090587,
+    "HR@10 val": 0.158391997
+   },
+   {
+    "época": 25,
+    "pérdida": 5.6244177896,
+    "NDCG@10 val": 0.0893602509,
+    "HR@10 val": 0.1600592812
+   },
+   {
+    "época": 26,
+    "pérdida": 5.5865192344,
+    "NDCG@10 val": 0.0893761066,
+    "HR@10 val": 0.1595035198
+   },
+   {
+    "época": 27,
+    "pérdida": 5.5653711282,
+    "NDCG@10 val": 0.0918539138,
+    "HR@10 val": 0.1637643572
+   },
+   {
+    "época": 28,
+    "pérdida": 5.5466413242,
+    "NDCG@10 val": 0.0901085531,
+    "HR@10 val": 0.1606150426
+   },
+   {
+    "época": 29,
+    "pérdida": 5.5196543894,
+    "NDCG@10 val": 0.0891736379,
+    "HR@10 val": 0.158391997
+   },
+   {
+    "época": 30,
+    "pérdida": 5.4961710969,
+    "NDCG@10 val": 0.0890262211,
+    "HR@10 val": 0.1572804742
+   },
+   {
+    "época": 31,
+    "pérdida": 5.478196234,
+    "NDCG@10 val": 0.0899428426,
+    "HR@10 val": 0.1576509818
+   },
+   {
+    "época": 32,
+    "pérdida": 5.4739208421,
+    "NDCG@10 val": 0.0899533299,
+    "HR@10 val": 0.1569099667
+   },
+   {
+    "época": 33,
+    "pérdida": 5.4482158314,
+    "NDCG@10 val": 0.0895166341,
+    "HR@10 val": 0.1570952205
+   },
+   {
+    "época": 34,
+    "pérdida": 5.4353263163,
+    "NDCG@10 val": 0.0892886233,
+    "HR@10 val": 0.1576509818
+   },
+   {
+    "época": 35,
+    "pérdida": 5.4219750704,
+    "NDCG@10 val": 0.0893638265,
+    "HR@10 val": 0.1565394591
+   },
+   {
+    "época": 36,
+    "pérdida": 5.4002322654,
+    "NDCG@10 val": 0.0892141604,
+    "HR@10 val": 0.1572804742
+   },
+   {
+    "época": 37,
+    "pérdida": 5.3934457787,
+    "NDCG@10 val": 0.0902458516,
+    "HR@10 val": 0.1608002964
+   }
+  ],
+  "B": [
+   {
+    "época": 1,
+    "pérdida": 7.4010364697,
+    "NDCG@10 val": 0.0441962598,
+    "HR@10 val": 0.0829937014
+   },
+   {
+    "época": 2,
+    "pérdida": 7.1003982193,
+    "NDCG@10 val": 0.0445997975,
+    "HR@10 val": 0.08243794
+   },
+   {
+    "época": 3,
+    "pérdida": 7.0114302856,
+    "NDCG@10 val": 0.0475223846,
+    "HR@10 val": 0.0876250463
+   },
+   {
+    "época": 4,
+    "pérdida": 6.8620081745,
+    "NDCG@10 val": 0.0567623737,
+    "HR@10 val": 0.1046683957
+   },
+   {
+    "época": 5,
+    "pérdida": 6.6650443243,
+    "NDCG@10 val": 0.0673805868,
+    "HR@10 val": 0.1218969989
+   },
+   {
+    "época": 6,
+    "pérdida": 6.4615835799,
+    "NDCG@10 val": 0.0760464793,
+    "HR@10 val": 0.1391256021
+   },
+   {
+    "época": 7,
+    "pérdida": 6.2835645614,
+    "NDCG@10 val": 0.0801773229,
+    "HR@10 val": 0.1461652464
+   },
+   {
+    "época": 8,
+    "pérdida": 6.1325774848,
+    "NDCG@10 val": 0.0855494269,
+    "HR@10 val": 0.1530196369
+   },
+   {
+    "época": 9,
+    "pérdida": 6.0039937405,
+    "NDCG@10 val": 0.0883968012,
+    "HR@10 val": 0.161170804
+   },
+   {
+    "época": 10,
+    "pérdida": 5.8849177873,
+    "NDCG@10 val": 0.0906392058,
+    "HR@10 val": 0.1633938496
+   },
+   {
+    "época": 11,
+    "pérdida": 5.7846199893,
+    "NDCG@10 val": 0.0921803397,
+    "HR@10 val": 0.1659874027
+   },
+   {
+    "época": 12,
+    "pérdida": 5.6850718643,
+    "NDCG@10 val": 0.0911746201,
+    "HR@10 val": 0.1646906262
+   },
+   {
+    "época": 13,
+    "pérdida": 5.5962432062,
+    "NDCG@10 val": 0.0910167137,
+    "HR@10 val": 0.1645053724
+   },
+   {
+    "época": 14,
+    "pérdida": 5.5196730643,
+    "NDCG@10 val": 0.0908704081,
+    "HR@10 val": 0.1626528344
+   },
+   {
+    "época": 15,
+    "pérdida": 5.4458835135,
+    "NDCG@10 val": 0.0885896561,
+    "HR@10 val": 0.160244535
+   },
+   {
+    "época": 16,
+    "pérdida": 5.3748890471,
+    "NDCG@10 val": 0.0868674479,
+    "HR@10 val": 0.1572804742
+   },
+   {
+    "época": 17,
+    "pérdida": 5.307996649,
+    "NDCG@10 val": 0.0872523203,
+    "HR@10 val": 0.1595035198
+   },
+   {
+    "época": 18,
+    "pérdida": 5.2567054876,
+    "NDCG@10 val": 0.0877365024,
+    "HR@10 val": 0.1569099667
+   },
+   {
+    "época": 19,
+    "pérdida": 5.20776486,
+    "NDCG@10 val": 0.086302475,
+    "HR@10 val": 0.1546869211
+   },
+   {
+    "época": 20,
+    "pérdida": 5.1670901835,
+    "NDCG@10 val": 0.0846086067,
+    "HR@10 val": 0.1533901445
+   },
+   {
+    "época": 21,
+    "pérdida": 5.1149676276,
+    "NDCG@10 val": 0.0858548578,
+    "HR@10 val": 0.1557984439
+   }
+  ],
+  "C": [
+   {
+    "época": 1,
+    "pérdida": 7.4648170929,
+    "NDCG@10 val": 0.044210942,
+    "HR@10 val": 0.0829937014
+   },
+   {
+    "época": 2,
+    "pérdida": 7.1230002377,
+    "NDCG@10 val": 0.0444066769,
+    "HR@10 val": 0.0835494628
+   },
+   {
+    "época": 3,
+    "pérdida": 7.0689698895,
+    "NDCG@10 val": 0.0445278398,
+    "HR@10 val": 0.0822526862
+   },
+   {
+    "época": 4,
+    "pérdida": 7.0209507682,
+    "NDCG@10 val": 0.0466229851,
+    "HR@10 val": 0.0868840311
+   },
+   {
+    "época": 5,
+    "pérdida": 6.9519532689,
+    "NDCG@10 val": 0.0493525375,
+    "HR@10 val": 0.0920711375
+   },
+   {
+    "época": 6,
+    "pérdida": 6.8561855691,
+    "NDCG@10 val": 0.05445909,
+    "HR@10 val": 0.1026306039
+   },
+   {
+    "época": 7,
+    "pérdida": 6.7487614892,
+    "NDCG@10 val": 0.0588049605,
+    "HR@10 val": 0.1113375324
+   },
+   {
+    "época": 8,
+    "pérdida": 6.6291272244,
+    "NDCG@10 val": 0.0659477644,
+    "HR@10 val": 0.1206002223
+   },
+   {
+    "época": 9,
+    "pérdida": 6.5104331712,
+    "NDCG@10 val": 0.0717428787,
+    "HR@10 val": 0.1322712116
+   },
+   {
+    "época": 10,
+    "pérdida": 6.4076835144,
+    "NDCG@10 val": 0.0760071369,
+    "HR@10 val": 0.1407928863
+   },
+   {
+    "época": 11,
+    "pérdida": 6.3238944675,
+    "NDCG@10 val": 0.0797955718,
+    "HR@10 val": 0.1463505002
+   },
+   {
+    "época": 12,
+    "pérdida": 6.2465044291,
+    "NDCG@10 val": 0.0828901159,
+    "HR@10 val": 0.1530196369
+   },
+   {
+    "época": 13,
+    "pérdida": 6.1820881557,
+    "NDCG@10 val": 0.085587889,
+    "HR@10 val": 0.1567247129
+   },
+   {
+    "época": 14,
+    "pérdida": 6.1081438784,
+    "NDCG@10 val": 0.0868930632,
+    "HR@10 val": 0.1596887736
+   },
+   {
+    "época": 15,
+    "pérdida": 6.0528242435,
+    "NDCG@10 val": 0.0875378479,
+    "HR@10 val": 0.1604297888
+   },
+   {
+    "época": 16,
+    "pérdida": 5.9897020558,
+    "NDCG@10 val": 0.0887637655,
+    "HR@10 val": 0.1606150426
+   },
+   {
+    "época": 17,
+    "pérdida": 5.9397969714,
+    "NDCG@10 val": 0.0910065953,
+    "HR@10 val": 0.1656168951
+   },
+   {
+    "época": 18,
+    "pérdida": 5.8964479483,
+    "NDCG@10 val": 0.0937121972,
+    "HR@10 val": 0.1696924787
+   },
+   {
+    "época": 19,
+    "pérdida": 5.8565393312,
+    "NDCG@10 val": 0.0925432674,
+    "HR@10 val": 0.1661726565
+   },
+   {
+    "época": 20,
+    "pérdida": 5.8136177938,
+    "NDCG@10 val": 0.0917176265,
+    "HR@10 val": 0.1646906262
+   },
+   {
+    "época": 21,
+    "pérdida": 5.7731462447,
+    "NDCG@10 val": 0.092962161,
+    "HR@10 val": 0.1691367173
+   },
+   {
+    "época": 22,
+    "pérdida": 5.7371298174,
+    "NDCG@10 val": 0.0927157846,
+    "HR@10 val": 0.1676546869
+   },
+   {
+    "época": 23,
+    "pérdida": 5.7134174534,
+    "NDCG@10 val": 0.0925122185,
+    "HR@10 val": 0.1672841793
+   },
+   {
+    "época": 24,
+    "pérdida": 5.6816030994,
+    "NDCG@10 val": 0.0934316454,
+    "HR@10 val": 0.1702482401
+   },
+   {
+    "época": 25,
+    "pérdida": 5.6558623734,
+    "NDCG@10 val": 0.092032748,
+    "HR@10 val": 0.1661726565
+   },
+   {
+    "época": 26,
+    "pérdida": 5.6362664568,
+    "NDCG@10 val": 0.091816037,
+    "HR@10 val": 0.1665431641
+   },
+   {
+    "época": 27,
+    "pérdida": 5.6074347035,
+    "NDCG@10 val": 0.0923545087,
+    "HR@10 val": 0.1685809559
+   },
+   {
+    "época": 28,
+    "pérdida": 5.5896873022,
+    "NDCG@10 val": 0.092988716,
+    "HR@10 val": 0.1685809559
+   }
+  ]
+ },
+ "prueba": [
+  {
+   "HR@5": 0.0594664691,
+   "NDCG@5": 0.0400761486,
+   "MRR@5": 0.0337378041,
+   "HR@10": 0.0935531678,
+   "NDCG@10": 0.0510931147,
+   "MRR@10": 0.0382807124,
+   "HR@20": 0.131900704,
+   "NDCG@20": 0.0605803749,
+   "MRR@20": 0.0407749297,
+   "Cobertura@10": 0.0075294118
+  },
+  {
+   "HR@5": 0.0941089292,
+   "NDCG@5": 0.0630025666,
+   "MRR@5": 0.0527695443,
+   "HR@10": 0.132826973,
+   "NDCG@10": 0.0753613252,
+   "MRR@10": 0.0577744109,
+   "HR@20": 0.1652463876,
+   "NDCG@20": 0.0834466045,
+   "MRR@20": 0.0599374982,
+   "Cobertura@10": 0.2155294118
+  },
+  {
+   "HR@5": 0.0761393109,
+   "NDCG@5": 0.0508647377,
+   "MRR@5": 0.0425527973,
+   "HR@10": 0.113560578,
+   "NDCG@10": 0.0628475723,
+   "MRR@10": 0.0474310738,
+   "HR@20": 0.1676546869,
+   "NDCG@20": 0.076463583,
+   "MRR@20": 0.0511354974,
+   "Cobertura@10": 0.9929411765
+  },
+  {
+   "HR@5": 0.1157836236,
+   "NDCG@5": 0.0798061792,
+   "MRR@5": 0.068022107,
+   "HR@10": 0.173953316,
+   "NDCG@10": 0.098398368,
+   "MRR@10": 0.0755697289,
+   "HR@20": 0.2419414598,
+   "NDCG@20": 0.1155281309,
+   "MRR@20": 0.0802417337,
+   "Cobertura@10": 0.4084705882
+  }
+ ],
+ "costo": [
+  {
+   "parámetros": 2125.0,
+   "entrenamiento (s)": 0.0,
+   "inferencia (ms/usuario)": 0.5706139683,
+   "NDCG@10 prueba": 0.0510931147
+  },
+  {
+   "parámetros": 1792.0,
+   "entrenamiento (s)": 126.773250596,
+   "inferencia (ms/usuario)": 0.0225005528,
+   "NDCG@10 prueba": 0.0753613252
+  },
+  {
+   "parámetros": 4515625.0,
+   "entrenamiento (s)": 0.471070777,
+   "inferencia (ms/usuario)": 0.0812936034,
+   "NDCG@10 prueba": 0.0628475723
+  },
+  {
+   "parámetros": 187520.0,
+   "entrenamiento (s)": 40.290043091,
+   "inferencia (ms/usuario)": 0.1052701237,
+   "NDCG@10 prueba": 0.098398368
+  }
+ ],
+ "segmentos": [
+  {
+   "segmento": "Historial corto (≤ 5)",
+   "usuarios": 3304,
+   "Popularidad": 0.0539597736,
+   "Reglas (lift)": 0.0772121141,
+   "Ítem–ítem coseno": 0.063002322,
+   "SASRec": 0.0990174999
+  },
+  {
+   "segmento": "Historial largo (> 5)",
+   "usuarios": 2094,
+   "Popularidad": 0.0465699815,
+   "Reglas (lift)": 0.072441074,
+   "Ítem–ítem coseno": 0.062603402,
+   "SASRec": 0.0974214761
+  },
+  {
+   "segmento": "Perfume oculto popular (top 20 %)",
+   "usuarios": 3064,
+   "Popularidad": 0.0900132615,
+   "Reglas (lift)": 0.1211837028,
+   "Ítem–ítem coseno": 0.0862609944,
+   "SASRec": 0.1598748868
+  },
+  {
+   "segmento": "Perfume oculto de cola larga",
+   "usuarios": 2334,
+   "Popularidad": 0.0,
+   "Reglas (lift)": 0.0152071843,
+   "Ítem–ítem coseno": 0.0321111863,
+   "SASRec": 0.0176939749
+  }
+ ],
+ "ejemplos_usuarios": [
+  3533,
+  481,
+  4177
+ ],
+ "embeddings": {
+  "mismo_genero": 0.7887530562347188,
+  "azar": 0.4964276875437138
+ }
+}

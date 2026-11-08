@@ -22,7 +22,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 21,B0BBYS1S4M,L'eau d'Issey Pour Homme by Issey Miyake 4.2 Fl Oz Eau de Toilette Spray,Issey Miyake,Hombre,49.91,4.7,85
 22,B0BFV1FFP2,"Versace Eros Eau de Toilette Spray for Men, 3.4 Fl Oz, 3.4 Fl Oz(Pack of 1)",Versace,Hombre,,4.7,90
 23,B08DDDL6W7,Bath and Body Works FIJI - SUNSHINE GUAVA-TINI Fine Fragrance Mist 8 Fluid Ounce (2020 Lim,Bath & Body Works,Mujer,14.99,4.7,86
-24,B0823VZWKG,Yves De Sistelle Thallium for Men 3.3 Ounce EDT SP,Yves De Sistelle,Sin dato,27.99,4.5,95
+24,B0823VZWKG,Yves De Sistelle Thallium for Men 3.3 Ounce EDT SP,Yves De Sistelle,Hombre,27.99,4.5,95
 25,B0BZH2MGVM,Armaf Club De Nuit Intense EDP Spray Men 6.8 oz,ARMAF,Hombre,50.01,4.5,88
 26,B09X6CQBPV,"Geoffrey Beene Men's Cologne, Grey Flannel, Eau De Toilette EDT Spray, 4 Fl Oz",Geoffrey Beene,Hombre,22.85,4.4,83
 27,B00CD8I0JU,"Beyonce Heat By Beyonce For Women Eau De Parfum Spray, 3.4-Ounce / 100 Ml",Beyoncé,Mujer,69.79,4.4,92
@@ -75,7 +75,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 74,B000VOPI4S,"Lomani By Lomani For Men, Eau De Toilette Spray, 3.3-Ounce Bottle",Lomani,Hombre,10.98,4.3,54
 75,B082B2Q9CQ,"Paris Hilton Women Eau De Parfum Spray, 1 Fl. Oz",Paris Hilton,Mujer,15.99,4.5,54
 76,B014AE59HU,Armaf Club De Nuit EDP - 100 Ml(for Women),ARMAF,Mujer,23.06,4.5,48
-77,B0BFVCFCQV,Meow ! Katy Perry Perfume For Her Eau De Parfum 3.4 oz Spray,Katy Perry,Sin dato,28.99,4.6,57
+77,B0BFVCFCQV,Meow ! Katy Perry Perfume For Her Eau De Parfum 3.4 oz Spray,Katy Perry,Mujer,28.99,4.6,57
 78,B0BGVBGBD7,"Men's Cologne Fragrance by Paul Sebastian, Eau de Cologne De Luxe, Day or Night Scent, 8 F",Paul Sebastian,Hombre,28.91,4.6,56
 79,B07BNVDCH1,"Mambo by Liz Claiborne for Men, Cologne Spray, 3.4-Ounce",LIZ CLAIBORNE,Hombre,19.99,4.6,56
 80,B01N5CJ5Z9,Le Male by Jean Paul Gaultier for Men - 6.7 Ounce EDT Spray,Jean Paul Gaultier,Hombre,,4.6,45
@@ -169,7 +169,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 168,B07HJS653R,"Aramis Eau De Toilette Spray for Men, 2 Ounce",ARAMIS,Hombre,35.99,4.6,34
 169,B0BG3L8L77,La Yuqawam Orchid Prairie for Women EDP - 75 ml(2.5 oz) | Signature Arabian Perfumery | Ta,RASASI,Mujer,47.0,4.0,32
 170,B0BQD6FTKL,"D & G Light Blue By Dolce & Gabbana For Men Eau De Toilette Spray, 4.2-Ounces",Dolce & Gabbana,Hombre,52.49,4.7,34
-171,B0BRYPCJJ3,Yara by Lattafa Perfumes | Eau De Parfum - 100ml (3.4 fl oz) | - Women,Lattafa Perfumes,Sin dato,28.7,4.3,27
+171,B0BRYPCJJ3,Yara by Lattafa Perfumes | Eau De Parfum - 100ml (3.4 fl oz) | - Women,Lattafa Perfumes,Mujer,28.7,4.3,27
 172,B0823CMS7V,"Dolce & Gabbana Light Blue for Men Eau de Toilette Spray, 2.5 Fl Oz",Dolce & Gabbana,Hombre,43.95,4.7,35
 173,B000HZR0VA,"Women's Perfume by Curve, Liz Claiborne Eau De Toilette Spray, Curve Wave, 3.4 Fl Oz",Curve,Mujer,16.22,4.6,38
 174,B09X6G1SRW,"Women's Perfume, Fragrance by Paul Sebastian, Day or Night Soft Floral Scent, DESIGN, 3.4 ",Paul Sebastian,Mujer,20.49,4.5,30
@@ -320,7 +320,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 319,B0BJZ6KLQZ,Drakkar Intense By Guy Laroche For Men - Long Lasting Eau De Parfum Cologne For Men - Pref,PARFUMS GUY LAROCHE,Hombre,29.94,4.4,15
 320,B0BC6MZCR2,Moschino Moschino Toy Boy EDP Spray Men 1 oz,MOSCHINO,Hombre,33.5,4.5,14
 321,B09MVMYPFS,Ed Hardy by Christian Audigier For Men. Eau De Toilette Spray 1.7-Ounces,Ed Hardy,Mujer,27.59,4.6,21
-322,B0BTJ6SYKB,"Shakira Perfumes - Dance for Women - Long Lasting - Femenine, Charming and Modern Perfume ",Shakira,Sin dato,29.34,4.4,21
+322,B0BTJ6SYKB,"Shakira Perfumes - Dance for Women - Long Lasting - Femenine, Charming and Modern Perfume ",Shakira,Mujer,29.34,4.4,21
 323,B00AFWK4S6,Bogart Pour Homme By Jacques Bogart For Men. Eau De Toilette Spray 3.33 Ounces,Jacques Bogart,Hombre,20.0,4.3,19
 324,B07CQWGHXK,"Kim Kardashian for Women By Kardashian Edp Spray, 3.4 Ounce",Kim Kardashian,Mujer,,4.4,17
 325,B0BB1N9K8K,Carolina Herrera Herrera For Men - Sophisticated Fragrance - Sensual And Elegant For The A,Carolina Herrera,Hombre,45.91,4.6,20
@@ -366,7 +366,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 365,B000P255VM,"Joop! Jump By Joop! For Men. Eau De Toilette Spray, 3.3 Fl Oz",Joop,Hombre,19.56,4.6,14
 366,B088B7GV9X,"Versace Yellow Diamond Eau De Toilette Spray for Women, 0.17 Fl Oz (Miniature)",Versace,Mujer,11.3,4.3,16
 367,B00W8YGIP2,"Sofia Vergara Eau De Parfum Spray for Women, 3.4 oz.",SOFIA VERGARA,Mujer,30.69,4.5,20
-368,B07HXWG5SP,Paco Rabanne 1 ONE MILLION EDT 100ml 3.4oz Eau de Toilette Men NEW SEALED BOX,Paco Rabanne,Sin dato,63.49,4.7,17
+368,B07HXWG5SP,Paco Rabanne 1 ONE MILLION EDT 100ml 3.4oz Eau de Toilette Men NEW SEALED BOX,Paco Rabanne,Hombre,63.49,4.7,17
 369,B0B8RKF915,"Bvlgari Women's Omnia Crystalline Eau De Toilette Spray,Silver,1.33 oz",BVLGARI,Mujer,62.0,4.7,17
 370,B004V3T4H2,"Tommy Bahama St. Barts Men Eau De Cologne, 3.4 Fl Oz",(sin marca),Hombre,72.0,4.7,23
 371,B08QWNQ1BH,"Charlie Silver by Revlon for WomenEau De Toilette Spray, 3.4 Ounce",REVLON,Mujer,9.25,4.5,20
@@ -441,7 +441,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 440,B004S7ZWZ4,"Adidas Victory League Eau De Toilette Spray for Men, 3.4 Ounce",adidas,Hombre,13.2,4.5,15
 441,B0BKB76G8D,"Azzaro Wanted By Night Eau de Parfum - Mens Cologne - Woody, Oriental & Spicy Fragrance",(sin marca),Hombre,,4.6,14
 442,B000C213ES,"Acqua Di Gio Pour Homme By Giorgio Armani Eau-de-toilette Spray, 6.7 Fl Oz",GIORGIO ARMANI,Mujer,62.49,4.7,16
-443,B0BZ3MLSKQ,Estee Lauder Beautiful Magnolia 1.0 oz / 30 ml EDP Women Spray,Estee Lauder,Sin dato,52.2,4.7,15
+443,B0BZ3MLSKQ,Estee Lauder Beautiful Magnolia 1.0 oz / 30 ml EDP Women Spray,Estee Lauder,Mujer,52.2,4.7,15
 444,B0CB1TRP6N,DAVIDOFF COOL WATER INTENSE EAU DE PARFUM SPRAY 2.5 OZ / 75 ML,DAVIDOFF,Hombre,39.66,4.4,12
 445,B099QJSJ24,"Calgon Fragrance Body Mist (Japanese Cherry Blossom, 8-Ounce)",Calgon,Mujer,11.22,4.6,17
 446,B00455FCRC,"RevlonCharlie White For Women, Eau De Toilette Spray, 3.4 Ounces",REVLON,Mujer,9.89,4.3,17
@@ -536,7 +536,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 535,B000E7SS4E,Animale By Animale Parfums For Men. Eau De Toilette Spray 3.4 Ounces,Animale Parfums,Hombre,31.33,4.6,14
 536,B0C7MB34RW,"Antonio Banderas The Icon Eau De Perfume For Men - Long Lasting - Virile, Elegant, Trendy ",Antonio Banderas,Hombre,28.79,4.3,13
 537,B000C1UBHE,Bvlgari Extreme Pour Homme Eau De Toilette Spray for Men 3.4 Ounce,BVLGARI,Hombre,84.5,4.6,17
-538,B08J91HZDN,360Feel Men's Cool Water Cologne Soap -Large 5oz Organic Castile Handmade Soap bar -Bold M,360Feel,Sin dato,7.12,3.9,15
+538,B08J91HZDN,360Feel Men's Cool Water Cologne Soap -Large 5oz Organic Castile Handmade Soap bar -Bold M,360Feel,Hombre,7.12,3.9,15
 539,B005MZS03C,"Gucci Guilty Intense Eau De Toilette Spray for Men, 3 Ounce",Gucci,Hombre,,4.7,10
 540,B002XITY4U,Beckham Signature By Beckham For Men Edt Spray 2.5 Oz,David Beckham,Hombre,33.99,4.5,13
 541,B08H9HZ4VS,Calvin Klein euphoria for Men Eau de Toilette,(sin marca),Hombre,80.0,4.6,17
@@ -575,7 +575,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 574,B000VOJHBS,Charlie White by Revlon for Women - 3.4 Ounce Eau Fraiche Spray,REVLON,Mujer,13.99,4.5,13
 575,B0BDTV7YH9,"Havana for Men By Aramis Eau De Toilette Spray, 3.4-Ounce",ARAMIS,Hombre,85.0,4.4,9
 576,B0BB9M39NS,Carolina Herrera Carolina Herrera Fragrance For Women - Embodiment Of Elegance And Feminin,Carolina Herrera,Mujer,56.3,4.6,12
-577,B003NV9R2U,Sexy City Love By unknown 3.3 oz Eau De Parfum Spray (New Packaging) for Women,Unknown,Sin dato,,4.3,13
+577,B003NV9R2U,Sexy City Love By unknown 3.3 oz Eau De Parfum Spray (New Packaging) for Women,Unknown,Mujer,,4.3,13
 578,B0BHXQ96TT,Heiress by Paris Hilton for Women - 8 oz Fragrance Mist Spray,Paris Hilton,Mujer,7.98,4.4,8
 579,B09DGHNXPR,"COLOUR ME Gold Femme - Fragrance for Women - 5.1 oz Body Spray, by Milton-Lloyd",COLOUR ME,Mujer,,4.2,13
 580,B0B99S7HYG,"GUESS Dare Eau de Toilette Spray for Women, 3.4 Fluid Ounce",GUESS,Mujer,18.96,4.4,14
@@ -713,8 +713,8 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 712,B07CJMF34P,"Rogue By Rihanna Eau de Parfum Spray, 2.5 Ounce",Rihanna,Mujer,36.08,4.0,12
 713,B0842VD2MM,Carolina Herrera 212 Vip Rose Fragrance For Women - Notes Of Bubbly Rosé - Seductive Peach,Carolina Herrera,Mujer,99.46,4.6,10
 714,B00455ZU38,"Curious In Control by Britney Spears for Women, Eau De Parfum Spray, 3.3-Ounce",BRITNEY SPEARS,Mujer,,4.5,12
-715,B097YXHNWM,"Lattafa Perfumes Fakhar Men EDP - Eau de Parfum 100ml (3.4 oz) Intense notes of lily, jasm",LATTAFA,Sin dato,33.45,4.5,10
-716,B0BRZ5KFZJ,"Lattafa Perfumes Ana Abiyedh Rouge Unisex EDP - Eau De Parfum 60ml(2 oz) I Saffron, Bitter",Lattafa Perfumes,Sin dato,19.99,3.8,10
+715,B097YXHNWM,"Lattafa Perfumes Fakhar Men EDP - Eau de Parfum 100ml (3.4 oz) Intense notes of lily, jasm",LATTAFA,Hombre,33.45,4.5,10
+716,B0BRZ5KFZJ,"Lattafa Perfumes Ana Abiyedh Rouge Unisex EDP - Eau De Parfum 60ml(2 oz) I Saffron, Bitter",Lattafa Perfumes,Unisex,19.99,3.8,10
 717,B00K34641W,"Lady Gaga Fame Eau de Parfum Spray for Women, 3.4 Fluid Ounce",Carolina Herrera,Mujer,199.0,4.4,10
 718,B0097E9UUG,Declaration D'Un Soir by Cartier for Men 3.3 oz Eau de Toilette Spray,CARTIER,Hombre,125.0,4.4,9
 719,B000E7YKI2,Opium By Yves Saint Laurent For Men. Eau De Toilette Spray 3.3 Ounces,Yves Saint Laurent,Mujer,95.99,4.6,10
@@ -758,7 +758,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 757,B002JWMA3C,"Yves De Sistelle Thallium Eau De Parfum Spray for Women, 3.3 Ounce",Yves De Sistelle,Mujer,,4.2,13
 758,B01NBID7FJ,"Women's Perfume by Revlon, Fire & Ice, Eau de Toilette Spray, Floral and Citrus Scent Note",REVLON,Mujer,14.14,4.7,7
 759,B0CD86VLJF,"Lomani AB Spirit Millionaire Eau de Parfum Spray for Women, 3.3 Ounce",Lomani,Mujer,14.99,4.4,8
-760,B07DX1NT91,"Pre de Provence No.63 Men's Collection, 100ml Eau de Toilette",Pre de Provence,Sin dato,40.99,4.5,5
+760,B07DX1NT91,"Pre de Provence No.63 Men's Collection, 100ml Eau de Toilette",Pre de Provence,Hombre,40.99,4.5,5
 761,B0020MMDF6,"M Luscious Pink By Mariah Carey For Women, Eau De Parfum Spray, 3.3 Ounces (100 ml)",Mariah Carey,Mujer,34.99,4.6,9
 762,B0BSGL6JCX,Dolce & Gabbana Light Blue 3.4 Oz Eau De Toilette Spray for Women,Dolce & Gabbana,Mujer,56.99,4.5,10
 763,B001KOTRHW,Salvatore Ferragamo Incanto Heaven By Salvatore Ferragamo For Women. Eau De Toilette Spray,Salvatore Ferragamo,Mujer,,4.5,10
@@ -842,7 +842,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 841,B0BKRNR6WT,"GUESS Bella Vita Fragrance Body Mist Spray for Women, Fruity, 8.4 Fl Oz",GUESS,Mujer,11.0,4.3,7
 842,B0BGZWM1H6,Jean Paul Gaultier Le Male Le Parfum EDP Intense Spray Men 4.2 oz,Jean Paul Gaultier,Hombre,102.49,4.6,6
 843,B07GL7H9B8,"Oscar de la Renta Esprit D'Oscar Eau de Parfum Perfume Spray for Women, 3.4 Fl. Oz.",(sin marca),Mujer,36.43,4.3,7
-844,B09HJKBYJV,"C.O. Bigelow Elixir White Cologne - No. 1585, 2.5 fl oz, Cologne for Men, Modern, Fresh, R",C. O. Bigelow,Sin dato,34.0,4.6,6
+844,B09HJKBYJV,"C.O. Bigelow Elixir White Cologne - No. 1585, 2.5 fl oz, Cologne for Men, Modern, Fresh, R",C. O. Bigelow,Hombre,34.0,4.6,6
 845,B000N8CN4U,"Pink Sugar Hair Perfume, 3.38 fl. oz.",(sin marca),Sin dato,15.0,4.4,8
 846,B00PMKT1OE,Armaf Niche Oud EDP Spray Men 3 oz,Armaf,Hombre,37.13,4.2,7
 847,B0C4CHT1VL,Auric Blends - Fine Perfume Oil Roll On Patchouly - 0.33 oz.,Auric Blends,Sin dato,10.95,4.2,10
@@ -853,14 +853,14 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 852,B00GPYGTPA,"Jovan Cologne Spray, Secret Amber, 3 Ounce",Jovan,Mujer,,4.2,10
 853,B06XDT1WSZ,"FILA Eau de Toilette for Men - Cool, Clean, Refreshing - A Classic Cologne For Men - Extra",Fila,Hombre,16.3,4.4,8
 854,B075RH7HVN,Valentino Uomo by Valentino for Men - 5.1 oz EDT Spray,Valentino,Hombre,114.11,4.6,7
-855,B0BMJGGLZK,"Orient Elite Woods for Men EDP - Eau De Parfum 100ml(3.4 oz) I Clove, Saffron, Rose, Patch",INTENSE ELITE,Sin dato,49.99,3.9,10
+855,B0BMJGGLZK,"Orient Elite Woods for Men EDP - Eau De Parfum 100ml(3.4 oz) I Clove, Saffron, Rose, Patch",INTENSE ELITE,Hombre,49.99,3.9,10
 856,B0B8FYWKX9,"Elite Flora for Women EDP - Eau De Parfum 100ml(3.4 oz) I Honeysuckle, Jasmine, Tuberose, ",INTENSE ELITE,Mujer,49.99,3.8,8
 857,B073QBPSWV,"Jacques Bogart One Man Show for Men, Eau de Toilette Spray, Oud Edition, 3.33 Ounce",Jacques Bogart,Hombre,18.73,4.1,9
-858,B0B2MSX869,"Lattafa Perfumes Mayar EDP - Eau De Parfum Women 100ml(3.4 oz) | Lychee, white flowers, Va",Lattafa Perfumes,Sin dato,26.0,4.0,7
+858,B0B2MSX869,"Lattafa Perfumes Mayar EDP - Eau De Parfum Women 100ml(3.4 oz) | Lychee, white flowers, Va",Lattafa Perfumes,Mujer,26.0,4.0,7
 859,B09PWGGT52,"Lattafa Perfumes Mazaaji for Women EDP - 100ML (3.4 oz) I Soft, feminine fragrance with wh",Lattafa Perfumes,Mujer,21.39,4.1,8
 860,B0BLYMCD2B,Tabac Original By Maurer & Wirtz For Men. Eau De Cologne Splash 10.1 Oz.,Maurer & Wirtz,Hombre,20.44,4.6,7
 861,B0BQVRX758,"Davidoff Cool Water Coral Reef Eau De Toilette Spray, Limited Edition, 3.4 Ounce",DAVIDOFF,Mujer,59.99,4.7,10
-862,B0B8MM7YV6,"Perry Ellis Fragrances 360 for Women Eau de Parfum Spray, Purple, 6.8 Fluid Ounce",Perry Ellis,Sin dato,28.5,4.6,8
+862,B0B8MM7YV6,"Perry Ellis Fragrances 360 for Women Eau de Parfum Spray, Purple, 6.8 Fluid Ounce",Perry Ellis,Mujer,28.5,4.6,8
 863,B07VSC5TBD,Antonio Banderas Perfumes - King of Seduction - Eau de Toilette for Men - Long Lasting - M,Antonio Banderas,Hombre,19.93,4.5,7
 864,B003X6DAJ6,"Cuba Prestige Eau De Toilette Spray | Masculine Fragrance, Authentic Mint, Coffee, with La",Cuba,Hombre,22.25,4.4,9
 865,B000VOPI2U,"Curve Kicks By Liz Claiborne for Women Eau De Toilette Spray, 3.4-Ounce Bottle",LIZ CLAIBORNE,Mujer,,4.3,9
@@ -897,7 +897,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 896,B0BHW7QPX9,"Wild Musk Eau de Cologne Spray, Vegan Formula, Perfume, Warm Spicy Scent, 1.0oz",Coty,Mujer,11.72,4.5,8
 897,B083WQ29QX,NARCISO RODRIGUEZ by Narciso Rodriguez EDT SPRAY 1.6 OZ for WOMEN,Narciso Rodriguez,Mujer,54.99,4.6,9
 898,B00GJKDKW0,"Guess Night Eau de Toilette Spray for Men, 3.4 Ounce",GUESS,Hombre,22.52,4.5,9
-899,B0B8F6MWFJ,"Folie for Women EDP - Eau De Parfum 100ml(3.4 oz) | Saffron, Red Fruits, Hedione, Jasmine,",INTENSE ELITE,Sin dato,49.9,3.7,11
+899,B0B8F6MWFJ,"Folie for Women EDP - Eau De Parfum 100ml(3.4 oz) | Saffron, Red Fruits, Hedione, Jasmine,",INTENSE ELITE,Mujer,49.9,3.7,11
 900,B0BD21ND22,Maison d'Orient MUSK TAHARA 12mL Artisanal Hand Crafted Perfume Oil Fragrance for Women an,Maison d'Orient,Mujer,21.95,4.3,9
 901,B0BDB99CVQ,"18.21 Man Made Men’s Spirits Spritzer, 3.4 oz. - Long-Lasting All Over Body Spray with Mas",(sin marca),Hombre,24.0,4.3,5
 902,B0BP8BCW7C,"BEAUPAN Dream Perfume No.1, 3x0.34 fl. oz. (10ml)",BEAUPAN,Mujer,21.99,4.3,7
@@ -913,9 +913,9 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 912,B01212ID1M,"ARMAF Luxe Futura La Homme for Men Eau de Parfum Spray, 3.4 Ounce",ARMAF,Hombre,,4.2,8
 913,B0046X6CNG,"Yes Yes Perfume, Impression of Can Can By Paris Hilton by PREFERRED FRAGRANCE",PREFERRED FRAGRANCE,Mujer,,4.3,8
 914,B06Y5DXVNQ,"Tru Western Outlaw Men’s Cologne, 3.4 fl oz (100 ml) - Iconic, Masculine, Clean",Tru Fragrance & Beauty,Hombre,45.4,4.4,6
-915,B0823FZ96S,"EBC Princess High Heel Shoes Pink Eau De Perfume For Woman, 100ml/3.4 OZ",EBC Brakes,Sin dato,12.98,4.2,9
+915,B0823FZ96S,"EBC Princess High Heel Shoes Pink Eau De Perfume For Woman, 100ml/3.4 OZ",EBC Brakes,Mujer,12.98,4.2,9
 916,B07BQMB4VD,C.H.A.N.E.L COCO MADEMOISELLE L'EAU PRIVEE EDP NIGHT SPRAY VIAL SIZE 0.05 OZ / 1.5 ML,CHANEL,Mujer,15.26,3.9,5
-917,B0BFRRB461,Hollywood by Fred Hayman for Women - 3.4 Ounce EDP Spray,Fred Hayman,Sin dato,19.79,4.4,10
+917,B0BFRRB461,Hollywood by Fred Hayman for Women - 3.4 Ounce EDP Spray,Fred Hayman,Mujer,19.79,4.4,10
 918,B00BQWGJK6,Lacoste Essential Eau de Toilette for Men,(sin marca),Hombre,63.0,4.7,8
 919,B074ZB6N4W,"Christian Dior Fahrenheit Eau de Toilette Spray for Men, 3.4 Fl Oz",Christian Dior,Hombre,114.99,4.7,8
 920,B000GI0VEQ,Curve Soul By Liz Claiborne For Men. Cologne Spray 1.7 Ounces,LIZ CLAIBORNE,Mujer,36.24,4.6,9
@@ -926,7 +926,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 925,B0059S1ELM,"Kenneth Cole Reaction Connected Eau De Toilette Spray for Men, 4.2 Ounce",(sin marca),Hombre,,4.5,8
 926,B0979DZYXD,"Fragrance Club Genealogy Collection Inspired by Aventus for Men, 1.9 fl oz. EDP Mens fragr",Fragrance Club Genealogy Collection,Hombre,34.95,3.9,7
 927,B07RC2Y1P7,"Solinotes Paris Tonka Bean for Women Eau de Parfum Spray, 1.7 Ounce/50ml",Solinotes Paris,Mujer,23.0,4.5,5
-928,B0823DR6M8,"EBC Princess High Heel Shoes Red Eau De Perfume For Woman, 100ml/3.4 OZ",EBC,Sin dato,11.99,4.2,6
+928,B0823DR6M8,"EBC Princess High Heel Shoes Red Eau De Perfume For Woman, 100ml/3.4 OZ",EBC,Mujer,11.99,4.2,6
 929,B07X5778KK,"Prada L'Homme For Men Eau De Toilette Spray, 3.4 Fluid Ounce,(Packaging may vary)",Prada,Hombre,99.5,4.7,10
 930,B0CDH6568J,"Sofia Vergara Avon so Very Sofia By Sofia Vergara for Women - 1.7 Oz Edp Spray, 1.7 Ounce",SOFIA VERGARA,Mujer,10.0,4.2,7
 931,B076FWQ98K,"Territoire Eau De Parfum, Men's Cologne (Platinum)",Territoire,Hombre,16.75,4.5,6
@@ -980,7 +980,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 979,B002HIJK7M,"Marmol & Son Batman Eau De Toilette Spray for Kids, 3.4 Ounce",Marmol & Son,Sin dato,,4.4,8
 980,B0051UTN3E,Swiss Arabian Noora - Luxury Products From Dubai - Long Lasting And Addictive Personal Per,Swiss Arabian,Mujer,19.61,4.2,8
 981,B07WJS1ZVC,Yantra Beauty The Mist Silk Hair & Body Perfume - Hydrating Thermal Protector Fragrance - ,Yantra,Sin dato,13.61,4.2,6
-982,B09QLN3JCZ,"Carrera Jeans 770 Original Perfumed Body Lotion for Women, Moisturize Skin, 10.14 Fl Oz (P",Carrera Jeans,Sin dato,18.0,4.4,8
+982,B09QLN3JCZ,"Carrera Jeans 770 Original Perfumed Body Lotion for Women, Moisturize Skin, 10.14 Fl Oz (P",Carrera Jeans,Mujer,18.0,4.4,8
 983,B0BLR7JMP8,4711 by Muelhens Eau De Cologne 27 oz for Women(Unisex),Muelhens,Hombre,,4.6,6
 984,B0BMWG9G4X,Le Monde Gourmand Chai Épicé Eau de Parfum - 1 fl oz | 30 ml,Le Monde Gourmand,Mujer,25.0,4.2,1
 985,B091YPB4ZQ,Trish McEvoy Eau de Parfum,(sin marca),Mujer,76.0,4.5,9
@@ -1010,11 +1010,11 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1009,B0C51HT6QB,DKNY Be Delicious Fresh Blossom Eau de Parfum,(sin marca),Mujer,72.0,4.6,6
 1010,B081VL66HZ,"Waterless Fragrance Mist with Apple and Berry, for All Hair Types, Alcohol and Paraben Fre",Waterless,Sin dato,,4.0,7
 1011,B0C6VT5WYD,Liberty Luxury OudGold Silk Intense Limited Edition Oud Parfum for Men and Women (100ml/3.,Liberty,Hombre,129.99,4.1,7
-1012,B09WLHS18L,Al Haramain Amber Oud Carbon EDP For Men (2.0 Fl Oz),Al Haramain,Sin dato,53.0,4.0,7
+1012,B09WLHS18L,Al Haramain Amber Oud Carbon EDP For Men (2.0 Fl Oz),Al Haramain,Hombre,53.0,4.0,7
 1013,B009SZ8NUC,"Tommy Hilfiger Tommy Eau De Prep Men Eau De Toilette Spray, 3.4 Ounce",Tommy Hilfiger,Hombre,,4.4,8
 1014,B09ZTW5F1L,CA Perfume Impression of Euphoria for women Fragrance Body Oils Alcohol-Free Essential Aro,CA Perfume,Mujer,12.99,4.0,6
 1015,B000C1VYSE,"Lacoste Red Eau de Toilette for Him - Men's fragrance, 4.2 Fl Oz",(sin marca),Hombre,,4.6,8
-1016,B000ZSWQAE,"Evyan Perfume Bath Powder for Women, White Shoulders, 2.6 Oz",Elizabeth Arden,Sin dato,15.99,4.4,8
+1016,B000ZSWQAE,"Evyan Perfume Bath Powder for Women, White Shoulders, 2.6 Oz",Elizabeth Arden,Mujer,15.99,4.4,8
 1017,B006F98EIA,"PB ParfumsBelcam Vault, Our Version of Armani Code, Eau de Toilette Spray, 3.4 Fl Oz",PB ParfumsBelcam,Hombre,9.95,4.2,5
 1018,B08RP96KFQ,Viktor & Rolf 3 x FLOWERBOMB EDP 1.5ml .05fl oz Perfume Spray Sample VIALS,Viktor & Rolf,Mujer,16.94,4.2,6
 1019,B001SEWBG8,"Jaguar By Jaguar, 3.40-Ounce",JAGUAR,Hombre,16.66,4.3,7
@@ -1071,7 +1071,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1070,B000C1Z782,Lacoste Pour Homme Eau de Toilette for Men,(sin marca),Hombre,,4.6,10
 1071,B08DK6F4QH,Lattafa Perfumes Bade'e Al Oud Oud for Glory Eau De Parfum Spray for Unisex 3.4 Ounce,Lattafa Perfumes,Hombre,25.38,4.4,5
 1072,B0C4CNGF6Q,J'Adore for Women by Dior 3.4 oz Eau de Parfum Spray,Jadore,Mujer,89.97,4.2,9
-1073,B0BJGVMMMP,Delilah Pour Femme Eau De Parfum 100ml/3.4oz Womens Perfume,Riyan,Sin dato,,4.2,5
+1073,B0BJGVMMMP,Delilah Pour Femme Eau De Parfum 100ml/3.4oz Womens Perfume,Riyan,Mujer,,4.2,5
 1074,B0009OAHEQ,"Joop! Homme Eau De Toilette Spray 4.2 Oz/ 125 Ml for Men By 4.2 Fl Oz, 124920",Joop!,Hombre,28.9,4.6,9
 1075,B000XEDGLS,Colors By United Colors Of Benetton For Women. Eau De Toilette Spray 3.3 Oz,Benetton,Mujer,,4.0,7
 1076,B07MVGSTMS,Raghba - Eau De Parfum (100ml - 3.4 Fl oz) by Lattafa,Lattafa,Sin dato,27.86,4.1,5
@@ -1112,7 +1112,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1111,B001EHDG90,Eau De Cartier Concentree By Cartier For Men. Eau De Toilette Spray Concentree 6.75 Oz.,CARTIER,Hombre,,4.7,7
 1112,B06XBY7DSH,"Carolina Herrera 212 Vip Rose Eau de Parfum Spray for Women, 1.7 Ounce",Carolina Herrera,Mujer,62.99,4.6,7
 1113,B0B25LN8WD,ARMAF TAG HIM PRESTIGE 3.4 EAU DE TOILETTE SPRAY FOR MEN,ARMAF,Hombre,23.39,4.5,7
-1114,B07657X68S,"Attar Al Ghutra for Men 100mL | Eau De Parfum Oud for Men with Tuscan Leather/Suede, Sanda",Swiss Arabian,Sin dato,95.05,4.1,5
+1114,B07657X68S,"Attar Al Ghutra for Men 100mL | Eau De Parfum Oud for Men with Tuscan Leather/Suede, Sanda",Swiss Arabian,Hombre,95.05,4.1,5
 1115,B0BM4CBY57,"Estelle Ewen L'Oriental White Edition Cologne, 3.4 Ounce",Estelle Ewen,Hombre,17.04,4.7,7
 1116,B000XED3JS,Curve By Liz Claiborne For Men. Cologne Spray 6.8 Oz.,LIZ CLAIBORNE,Hombre,,4.6,6
 1117,B07G837GDJ,"Christian Dior Hypnotic Poison Eau De Toilette Spray for Women, 1 Ounce",Christian Dior,Mujer,61.97,4.6,5
@@ -1173,9 +1173,9 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1172,B09X2JBJJB,ICEBERG Twice ROSA - Woody Floral Musk Fragrance For The Modern Woman - Fresh And Fruity F,ICEBERG,Mujer,12.58,3.9,9
 1173,B08GMB1SCY,"DEFINEME Ariel Disney Travel Perfume 0.27 FL OZ, Little Mermaid Fine Fragrance",DefineMe,Mujer,,3.7,9
 1174,B0B2L218H2,"PINROSE Perfumes Bold Soul - Eau de Parfum Petals (Fragrance Towelettes) - Vegan, Cruelty-",PINROSE,Sin dato,10.0,4.0,8
-1175,B0B85L2JTC,"Crave Extreme For Men EDP - Eau De Parfum 100ml(3.4 oz) | Pepper, Calabrian Bergamot, Elem",INTENSE ELITE,Sin dato,49.99,4.5,8
+1175,B0B85L2JTC,"Crave Extreme For Men EDP - Eau De Parfum 100ml(3.4 oz) | Pepper, Calabrian Bergamot, Elem",INTENSE ELITE,Hombre,49.99,4.5,8
 1176,B0BL9T8B6B,"RASASI La Yuqawam Ambergris Showers EDP - 75 ml(2.5 oz) | Tangerine, Iris, Leather, Galban",RASASI,Mujer,63.99,4.3,4
-1177,B0BMJ23TRZ,"Imperial Oud for Men EDP - Eau De Parfum 50ml(1.67 oz) | Christmast Gift Basket, Holiday G",INTENSE ELITE,Sin dato,27.99,3.5,8
+1177,B0BMJ23TRZ,"Imperial Oud for Men EDP - Eau De Parfum 50ml(1.67 oz) | Christmast Gift Basket, Holiday G",INTENSE ELITE,Hombre,27.99,3.5,8
 1178,B07JQQVC4G,Armaf Odyssey EDP Spray Men 3.4 oz,Armaf,Hombre,27.45,4.4,4
 1179,B005KAO02O,"Michael Jordan Flight Eau De Toilette Spray for Men, 3.4 Ounce",Michael Jordan,Hombre,,4.6,9
 1180,B000C1Z5HA,Bowling Green By Geoffrey Beene For Men. Eau De Toilette Spray 4 Ounces,Geoffrey Beene,Hombre,,4.4,7
@@ -1191,11 +1191,11 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1190,B07BLZ5P4Z,Angel Men By Thierry Mugler For Men. Eau De Toilette Spray 3.4 Oz (Refill).,Thierry Mugler,Hombre,92.22,4.4,8
 1191,B0BKLN4RCD,"Paris Hilton Gift Set for Women (Eau de Parfum Spray 3.4 Ounce, Eau de Parfum Spray 1 Ounc",Paris Hilton,Mujer,45.95,4.4,7
 1192,B0BQQ6FNFD,"Pink Sugar Creamy Sunshine Hair Perfume, 3.38 fl. oz.",Pink Sugar,Sin dato,15.0,3.6,6
-1193,B09FYT2N6Z,"Carrera Jeans 700 UOMO ORIGINAL Eau de Toilette for Men, 2.53 Fl Oz",Carrera Jeans,Sin dato,36.0,4.3,5
+1193,B09FYT2N6Z,"Carrera Jeans 700 UOMO ORIGINAL Eau de Toilette for Men, 2.53 Fl Oz",Carrera Jeans,Hombre,36.0,4.3,5
 1194,B00I884NZE,"Montblanc Mont Blanc Legend Eau de Toilette Spray for Men, 5 Ounce",(sin marca),Hombre,,4.2,6
 1195,B000X9PL8O,"Lomani Ab Spirit Eau De Toilette Spray for Men, 3.3 Ounce",Lomani,Hombre,24.98,4.4,7
 1196,B001PTFWU8,Stetson Original Aftershave by Scent Beauty - After Shave Splash for Men - Earthy and Wood,Stetson,Hombre,23.99,4.7,7
-1197,B0B4PPK6JZ,"Travel Size Perfume Cologne Bottle Refillable, Mini Empty Perfume Atomizer Travel Cologne ",SixTmoon,Sin dato,11.99,4.1,2
+1197,B0B4PPK6JZ,"Travel Size Perfume Cologne Bottle Refillable, Mini Empty Perfume Atomizer Travel Cologne ",SixTmoon,Unisex,11.99,4.1,2
 1198,B08LWF11C9,"AFNAN SOUVENIR FLORAL BOUQUET by Afnan Perfumes, EAU DE PARFUM SPRAY 3.4 OZ",Afnan,Mujer,37.0,3.9,5
 1199,B000COJHNU,"Johan B Merveille Eau De Parfum Spray for Women, 3.4 Ounce",Johan,Mujer,,4.3,6
 1200,B002XQ1Y68,"Sunkissed Glow for Women by Jennifer Lopez, Eau De Toilette, 3.4 Ounces",Jennifer Lopez,Mujer,108.06,4.1,3
@@ -1250,7 +1250,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1249,B000XDYHKS,One Man Show By Jacques Bogart For Men. Eau De Toilette Spray 3.33 Oz,Jacques Bogart,Hombre,13.73,4.2,6
 1250,B09Q41T5QC,Dunhill Driven Blue Eau de Toilette EDP Spray for Men,(sin marca),Hombre,63.78,4.4,8
 1251,B08Q8PS48P,"Womanity by Thierry Mugler for Women, Eau de Parfum Refillable Spray, 2.7 Ounce",Thierry Mugler,Mujer,169.99,4.5,5
-1252,B00COPH3MM,"Drakkar Noir By Guy Laroche - Original Vintage Fragrance Mist Blend For Men - Fresh, Class",PARFUMS GUY LAROCHE,Sin dato,12.99,4.6,3
+1252,B00COPH3MM,"Drakkar Noir By Guy Laroche - Original Vintage Fragrance Mist Blend For Men - Fresh, Class",PARFUMS GUY LAROCHE,Hombre,12.99,4.6,3
 1253,B09VD7MDSK,"Lisapack 8ML Atomizer Perfume Spray Bottle for Travel, Empty Refillable Cologne Dispenser,",LISAPACK,Sin dato,6.99,4.5,3
 1254,B000E7SRSG,Samba By Perfumers Workshop For Men. Eau De Toilette Spray 3.3 Ounces,Perfumer's Workshop,Hombre,15.99,4.7,6
 1255,B00683PRWO,"Rocawear Evolution Men Eau De Toilette Spray, 3.4 Ounce",Rocawear,Hombre,,4.5,7
@@ -1284,7 +1284,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1283,B0BN37WD95,"Kanon Norwegian Wood By Kanon For Men Eau De Toilette Spray, 3.3 Fl Oz / 100 Ml",Kanon,Hombre,85.85,4.4,4
 1284,B002I6FP9A,"Adidas Natural Vitality by Adidas Eau-de-toilette Spray for Women, 1.70-Ounce",adidas,Mujer,16.49,4.4,7
 1285,B00D8BCEC0,"Taylor Swift Eau de Parfum Spray, Taylor, 3.4 Ounce",Taylor Swift,Mujer,,4.4,6
-1286,B07B8C4YYB,Encré Noíre A L'extreme Cologne 3.3 oz Eau De Parfum Spray For Men,lalproducts,Sin dato,36.76,4.4,7
+1286,B07B8C4YYB,Encré Noíre A L'extreme Cologne 3.3 oz Eau De Parfum Spray For Men,lalproducts,Hombre,36.76,4.4,7
 1287,B0B7ZV2ZWG,"Christian Dior Eau de Parfum Spray for Women, Addict, 3.4 Ounce",Christian Dior,Mujer,115.15,4.7,5
 1288,B000P275RY,Curve By Liz Claiborne For Women. Eau De Toilette Spray 6.8 oz,LIZ CLAIBORNE,Mujer,49.99,4.2,8
 1289,B000VOLLW6,"Body Powder for Women by Elizabeth Taylor, Passion, 2.6 Oz",Elizabeth Taylor,Mujer,12.24,4.5,3
@@ -1345,7 +1345,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1344,B01N5EXPCT,"Reyane Tradition Insurrection Ii Pure Eau de Toilette Spray for Men, 3.0 Ounce",Reyane Tradition,Hombre,22.4,4.5,5
 1345,B0BV1RN3CB,Versace Pour Homme By Gianni Versace For Men. Eau De Toilette Spray 1.7 Oz.,Versace,Hombre,33.5,4.7,6
 1346,B0BN73NN48,Dolce & Gabbana K Men 5 oz EDT Spray,Dolce & Gabbana,Hombre,60.37,4.7,4
-1347,B0752ZGG15,"Whisper 90mL, a skin caressing floral Eau De Parfum for Women with calm base notes of Musk",Swiss Arabian,Sin dato,39.32,4.0,6
+1347,B0752ZGG15,"Whisper 90mL, a skin caressing floral Eau De Parfum for Women with calm base notes of Musk",Swiss Arabian,Mujer,39.32,4.0,6
 1348,B0BSR1SVJY,"Shakira Perfume - Sweet Dream for Women - Long Lasting - Charming, Romantic and Elegant Fr",Shakira,Mujer,22.0,4.3,5
 1349,B0BTMZW914,"Geir Ness Laila Eau de Parfum Spray - Long Lasting Fresh, Airy and Clean Fragrance for Wom",Geir Ness,Mujer,89.0,4.6,5
 1350,B07CJ4J8QR,"Paris Hilton Passport St. Moritz Eau De Toilette Spray for Women, 1 Ounce",Paris Hilton,Mujer,10.41,3.8,4
@@ -1396,7 +1396,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1395,B0BLHMZW96,Rose Noire Black by Giorgio Valenti For Men. Eau De Toilette Spray 3.3-Ounces,Giorgio Valenti,Hombre,,4.3,6
 1396,B0C6189PN5,"White Tea by Elizabeth Arden, Women's Perfume, Eau de Toilette Spray, 1 Fl Oz",Elizabeth Arden,Mujer,34.0,4.5,3
 1397,B000C2102S,Noa By Cacharel For Women. Eau De Toilette Spray 1 Ounces,(sin marca),Mujer,21.0,4.4,4
-1398,B0BTDW2MV6,Antonio Banderas Perfumes - Her golden secret - Eau de toilette Spray for Women - Long Las,Antonio Banderas,Sin dato,22.0,4.3,5
+1398,B0BTDW2MV6,Antonio Banderas Perfumes - Her golden secret - Eau de toilette Spray for Women - Long Las,Antonio Banderas,Mujer,22.0,4.3,5
 1399,B01LF7LHR6,PRIVATESHOW;EDP 3.3 OZ/100ML L,BRITNEY SPEARS,Sin dato,,4.7,5
 1400,B07WGQV4LX,Antonio Banderas Perfumes - King of Seduction Absolute - Eau de Toilette for Men - Long La,Antonio Banderas,Hombre,20.48,4.6,4
 1401,B0C8K1QR88,"RASASI Al Wisam Day EDP for Men 100ML (3.40 oz) | sandalwood, musk, and amber | Signature ",RASASI,Hombre,44.99,4.2,5
@@ -1407,7 +1407,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1406,B0B8V5QK3Y,Fancy by Jessica Simpson for Women. Eau De Parfum Spray 1.7-Ounces,Jessica Simpson,Mujer,27.99,4.3,5
 1407,B09ZYR1RLZ,Cartier La Panthere for Women 2.5 oz Eau de Parfum Spray,CARTIER,Mujer,89.94,4.6,7
 1408,B08178BJBN,"Antonio Banderas Perfumes, Seduction Doses Travel Size - Queen of Seduction - Eau de Toile",Antonio Banderas,Mujer,,4.1,7
-1409,B09129H781,ELSHA Attract Women Pheromone Cologne [original 1776 scent] - 2 Fl Oz of Long Lasting Uniq,ELSHA,Sin dato,42.0,4.1,6
+1409,B09129H781,ELSHA Attract Women Pheromone Cologne [original 1776 scent] - 2 Fl Oz of Long Lasting Uniq,ELSHA,Mujer,42.0,4.1,6
 1410,B000WZIXRK,"Ciel By Jacques Saint Pres For Women Eau De Parfum Spray, 3.4-Ounces",Jacques Saint Pres,Mujer,23.99,4.6,4
 1411,B00BNRV648,Snooki Body Spray for Womenm 8 Ounce,Snooki,Mujer,,4.6,3
 1412,B000E7UDP6,Benetton Sport By Benetton For Men. Eau De Toilette Spray 3.3 Ounces,Benetton,Hombre,37.82,4.5,7
@@ -1422,7 +1422,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1421,B07YLQS9YG,"Beyonce Heat Kissed Eau de Parfum for Women, 3.4 Ounce",Beyoncé,Mujer,,4.3,5
 1422,B0C61CPH6J,"Jean Paul Gaultier Ultra Male for Men Intense Spray, Eau de Toilette, 4.2 Ounce",Jean Paul Gaultier,Hombre,93.9,4.6,4
 1423,B00V6R3LKM,"English Laundry Cambridge Knight Eau de Parfum, 3.4 Fl Oz",(sin marca),Hombre,85.0,4.5,4
-1424,B0BNPRKBK1,Old Spice Anti-perspirant Deodorant for Men Dynasty Cologne Scent 48 Hour Protection 2.6 O,Old Spice,Sin dato,,4.6,5
+1424,B0BNPRKBK1,Old Spice Anti-perspirant Deodorant for Men Dynasty Cologne Scent 48 Hour Protection 2.6 O,Old Spice,Hombre,,4.6,5
 1425,B092YG29ZY,"Women Underwear Perfume Oil for Inner Care and Therapy 7ml - Peach, Apple and Lily Scent, ",MAYL'ODEUR,Mujer,,3.9,6
 1426,B0C5XT2V87,"GIORGIO ARMANI Acqua Di Gio Profondo for Men Eau de Parfum Spray, Multi-color, 4.2 Fl Oz",GIORGIO ARMANI,Hombre,103.7,4.6,5
 1427,B0C4HZJTC8,"Lattafa 24 Carat White Gold for Unisex Eau de Parfum Spray, 3.4 Ounce",Lattafa Perfumes,Mujer,19.99,3.6,4
@@ -1478,7 +1478,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1477,B008G04YIA,Perfect Scents Fragrances | Inspired by Donna Karan's Cashmere Mist | Women’s Eau de Toile,DKNY,Mujer,9.94,4.2,6
 1478,B071FVNXSN,Salvatore Ferragamo Uomo Casual Life Eau De Toilette Spray 100ml/3.4oz,Salvatore Ferragamo,Hombre,38.41,4.5,3
 1479,B0BSKQJ9WC,Baccarat Rouge 540 by Maison Francis Kurkdjian Eau De Parfum 2.3 oz Spray by Maison Franci,Maison Francis Kurkdjian,Mujer,219.0,4.0,1
-1480,B005IQ3CO2,L'EAU D'ISSEY POUR HOMME INTENSE by Issey Miyake EDT SPRAY 4.2 OZ for MEN,Issey Miyake,Sin dato,41.99,4.5,4
+1480,B005IQ3CO2,L'EAU D'ISSEY POUR HOMME INTENSE by Issey Miyake EDT SPRAY 4.2 OZ for MEN,Issey Miyake,Hombre,41.99,4.5,4
 1481,B001KOTRHM,Salvatore Ferragamo F For Fascinating By Salvatore Ferragamo For Women. Eau De Toilette Sp,Salvatore Ferragamo,Mujer,80.0,4.5,6
 1482,B00OWVNM94,"Victor Manuelle Miami Eau de Parfum Spray for Men, 3.4 Ounce",Victor Manuelle,Hombre,,4.1,6
 1483,B09S94LTWS,"Cacharel Yes I Am Delicious Eau de Parfum Spray Perfume for Women - Green Mandarin, Jasmin",(sin marca),Mujer,57.0,4.0,2
@@ -1509,8 +1509,8 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1508,B000C1UB2O,Mediteraneo By Antonio Banderas For Men. Eau De Toilette Spray 3.4 Ounces,Antonio Banderas,Hombre,22.99,4.5,7
 1509,B0BHGJ4DHJ,"Women's Perfume Fragrance Mist by Curve, Casual Day or Night Scent, Pink Blossom, 8 Fl Oz",Curve,Mujer,9.99,4.4,6
 1510,B099KNK7S2,ICEBERG Effusion Man - Amber Fougere Fragrance For Men - Refreshing And Adventurous - Ligh,ICEBERG,Hombre,29.49,3.9,6
-1511,B09N382J9C,"CAMELIA GARDEN 40mL Perfume for Men and Women, with Fresh Fruits, Subtle Florals, Deep Woo",AHMED,Sin dato,76.64,4.2,6
-1512,B09FYVPNXM,"Carrera Jeans UOMO 707 ORIGINAL Eau de Parfum for Men, 4.22 Fl Oz",Carrera Jeans,Sin dato,45.0,3.6,6
+1511,B09N382J9C,"CAMELIA GARDEN 40mL Perfume for Men and Women, with Fresh Fruits, Subtle Florals, Deep Woo",AHMED,Unisex,76.64,4.2,6
+1512,B09FYVPNXM,"Carrera Jeans UOMO 707 ORIGINAL Eau de Parfum for Men, 4.22 Fl Oz",Carrera Jeans,Hombre,45.0,3.6,6
 1513,B07CYWKTPT,Silver Shadow By Davidoff For Men. Eau De Toilette Spray 3.4 OZ,DAVIDOFF,Hombre,89.35,4.4,7
 1514,B073WDHD2F,Eau De Parfum Spray 3.3 oz,LA RIVE,Mujer,16.78,4.2,4
 1515,B08DDGK17F,"4pcs 10ml Small Spray Bottles Spray Bottle Empty, Mister Spray Bottle Atomizer Misting Per",BOXIN,Sin dato,,4.1,5
@@ -1524,21 +1524,21 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1523,B0C75HP5J5,"Ard Al Zaafaran Perfumes Al Ibdaa Silver,Bint Hooran & Turab Al Dhahab EDP- 100Ml (3.4Oz) ",Ard Al Zaafaran Perfumes,Sin dato,17.99,4.4,5
 1524,B0BXJYR1J1,"Lattafa Perfumes Premium Collection Hayaati For Men,Hayaati Gold Elixir For Women & Hayaat",Lattafa Perfumes,Mujer,24.75,4.4,6
 1525,B0B94YH6B1,"Lattafa Perfumes Ra'ed Oud for Unisex Eau de Parfum Spray, 3.4 Ounce",Lattafa Perfumes,Mujer,25.49,4.7,5
-1526,B000E7WG8I,"Cartier Declaration Essence Eau de Toilette Spray for Men, 3.3 Ounce",CARTIER,Sin dato,95.0,4.5,5
+1526,B000E7WG8I,"Cartier Declaration Essence Eau de Toilette Spray for Men, 3.3 Ounce",CARTIER,Hombre,95.0,4.5,5
 1527,B0968G9ND2,"English Laundry Bright English Collection Eau De Parfum, 0.68 Fl Oz (Pack of 4)",(sin marca),Mujer,78.0,4.1,6
 1528,B0BB13R9YT,"SCENT BEAUTY Loved Eau de Parfum by Lauren Conrad - Fragrance for Women - Feminine, Floral",SCENT BEAUTY,Mujer,57.0,4.0,5
 1529,B0009MHXPY,"Acqua Di Parma Cologne Spray for Men, 3.4 Ounce",Acqua Di Parma,Hombre,72.99,4.3,4
 1530,B09TS3FJT6,Yellowstone Men's Handcrafted Cologne Spray by Tru Western - Officially Licensed Fragrance,Tru Fragrance & Beauty,Hombre,55.4,4.4,6
-1531,B09GX967XG,"CARRERA JEANS DONNA ORIGINAL WHITE Eau de Parfum for Women, 1 Fl Oz",Carrera Jeans,Sin dato,18.0,3.4,4
+1531,B09GX967XG,"CARRERA JEANS DONNA ORIGINAL WHITE Eau de Parfum for Women, 1 Fl Oz",Carrera Jeans,Mujer,18.0,3.4,4
 1532,B0B5GJDV8J,Hempz Body Mist Moisturizing Oil Spray - Vanilla Plum Refreshing Scent Hydrating 100% Hemp,Hempz,Mujer,12.53,4.3,3
 1533,B007QV8OD6,"Betsey Johnson Eau De Parfum Spray for Women, 3.4 Ounce",Betsey Johnson,Mujer,22.83,4.6,5
 1534,B0033CV5O2,1936 Special Edition Vanille Eau de Toilette,L'Aromarine,Mujer,38.0,4.2,4
 1535,B0817JXC3D,"Issey Miyake L'eau D'issey Eau de Toilettes Spray for Women, 3.3 Fluid Ounce",Issey Miyake,Mujer,53.86,4.7,3
-1536,B0B295BDTV,Paris Corner VOUX OUD EMIR 100ml Unisex Fragrance Scent Perfumes (VOUX ELEGANTE),Paris Corner,Sin dato,,3.9,2
+1536,B0B295BDTV,Paris Corner VOUX OUD EMIR 100ml Unisex Fragrance Scent Perfumes (VOUX ELEGANTE),Paris Corner,Unisex,,3.9,2
 1537,B09B4HNMP3,"Lattafa Ejaazi Intensive Silver for Unisex Eau de Parfum Spray, 3.4 Ounce",Lattafa Perfumes,Mujer,17.39,4.2,4
 1538,B0C1NK9DKW,"English Laundry Pink Brilliance EDP, 3.4 fl. oz.",English Laundry,Mujer,90.0,4.4,4
 1539,B00F3D5NWE,"Prada Luna Rossa Extreme Pour Homme Eau de Parfum Spray, 3.4 Fluid Ounce",Prada,Hombre,,4.4,4
-1540,B009Z645IS,Hombre De Oro Men's Perfume 3.3 Fl Oz By Alejandra Espinoza…,Thinkpichaidai,Sin dato,27.81,3.4,4
+1540,B009Z645IS,Hombre De Oro Men's Perfume 3.3 Fl Oz By Alejandra Espinoza…,Thinkpichaidai,Hombre,27.81,3.4,4
 1541,B08KFBQDXP,"Swiss Arabian Hawa - Luxury Product from Dubai - Notes of White Florals, Citrus, Amber - L",Swiss Arabian,Mujer,,4.2,5
 1542,B0B72CN94N,"Paris For Her Eau de Parfum Spray Perfume, Fragrance For Women-Daywear, Casual Daily Colog",NovoGlow,Mujer,19.97,3.9,5
 1543,B07GB6B37N,"Yves Saint Laurent Y Eau de Toilette Spray for Men, 3.3 Fl Oz (Pack of 1)",Yves Saint Laurent,Hombre,96.09,4.6,1
@@ -1648,7 +1648,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1647,B01MEGKQB1,"Guerlain for Men Eau de Parfum Spray, 3.3 Ounce, Multi",Guerlain,Hombre,94.99,4.3,2
 1648,B08M6RQXDS,"LACOSTE L.12.12 Pour Elle Magnetic Eau de Toilette, 0.84 Fl oz",(sin marca),Mujer,42.4,4.7,6
 1649,B0C7RXFRZY,RASASI Entebaa Men and Women Collection EDP - 100Ml (3.4Oz) (men),RASASI,Hombre,39.99,4.2,3
-1650,B01N2S2XZQ,FLEUR DE FEMME BY LA RIVE 90 ML/ 3.0 OZ EAU DE PARFUM SPRAY,LA RIVE,Sin dato,22.03,4.0,5
+1650,B01N2S2XZQ,FLEUR DE FEMME BY LA RIVE 90 ML/ 3.0 OZ EAU DE PARFUM SPRAY,LA RIVE,Mujer,22.03,4.0,5
 1651,B095C3FQRJ,Aromolon Aquatic Fragrance Pheromone Cologne Spray for Men – Ocean-inspired Scent – Strong,Aromolon,Hombre,19.8,3.9,6
 1652,B098WB2DH4,"Juicy Couture Viva la Juicy Neon Eau de Parfum Spray, Perfume for Women, 3.4 fl. oz",(sin marca),Mujer,,4.5,4
 1653,B0BR16Y15Z,"Vince Camuto Floreale Eau de Parfum Spray Perfume for Women- Bergamont, Orchid & Vanilla",(sin marca),Mujer,92.0,4.8,5
@@ -1666,14 +1666,14 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1665,B00BH4JXS8,"Flowerbomb by Viktor & Rolf For Women, Eau de Parfum, 1.7-Ounce Spray",Viktor & Rolf,Mujer,82.99,4.6,3
 1666,B092HSMFBT,Women Underwear Perfume Oil for Inner Care and Therapy 7ml - Natural Essential Oil Aromati,MAYL'ODEUR,Mujer,,4.2,4
 1667,B08D7THRRY,"Vince Camuto Brilliante, 3.4 Fl. oz.",(sin marca),Mujer,92.0,4.5,5
-1668,B0B981SJ8Q,GUESS Seductive Homme Noir 3.4 oz EDT Spray RETAIL,GUESS,Sin dato,26.23,4.5,3
+1668,B0B981SJ8Q,GUESS Seductive Homme Noir 3.4 oz EDT Spray RETAIL,GUESS,Hombre,26.23,4.5,3
 1669,B08QTJ7P9X,Vince Camuto Terra Extreme Eau de Parfum Spray Cologne for Men,(sin marca),Hombre,90.0,4.6,6
 1670,B00CH3SL9A,"Paul Sebastian Fine Cologne Splash, 8.0 Fluid Ounce",Paul Sebastian,Hombre,,4.7,4
 1671,B00C69IJM4,"John Varvatos Eau de Toilette Spray, 4.2 Fl Oz",(sin marca),Hombre,,4.4,6
 1672,B00B081AO6,"Eau Pour Homme by Giorgio Armani | Eau de Toilette Spray | Fragrance for Men | An Elegant,",GIORGIO ARMANI,Hombre,126.0,4.5,6
 1673,B004YT28GC,"Gucci Guilty Eau Pour Homme Eau de Toilette Spray for Men, 1.6 Ounce",Gucci,Hombre,83.99,4.7,5
 1674,B07HXFSQH2,Flower by Kenzo for Women - 3.3 Ounce EDP Spray,Kenzo,Mujer,56.9,4.6,3
-1675,B0CDQ5XYLM,COUPLER Pheromone Oil for Women -Pheromone Perfume for Her-Female Pheromonas-Feromonas Con,COUPLER,Sin dato,25.9,3.8,6
+1675,B0CDQ5XYLM,COUPLER Pheromone Oil for Women -Pheromone Perfume for Her-Female Pheromonas-Feromonas Con,COUPLER,Mujer,25.9,3.8,6
 1676,B005G7QJTI,"Estee Lauder El Sensuous Nude Eau de Parfum Spray for Women, 3.4 Ounce, Brown",Estee Lauder,Mujer,,4.6,5
 1677,B0BQQ8SWCM,Pink Sugar Red Velvet - Eau De Toilette Perfume for Women-Strawberry Floral Caramel,(sin marca),Mujer,32.5,4.4,5
 1678,B07BYJ7RW8,"Paris Hilton Can Can for Women Gift Set (Eau de Parfum Spray, Lotion, Bath and Shower Gel,",Paris Hilton,Mujer,39.65,4.5,5
@@ -1694,7 +1694,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1693,B00803F6T4,"Calvin Klein euphoria for Men, 5.4 Fl. Oz. Body Spray",(sin marca),Hombre,24.0,4.6,4
 1694,B07BJ7T5BF,Antonio Puig Aqua Quorum By Antonio Puig For Men. Eau De Toilette Spray 3.4-Ounces,Antonio Banderas,Hombre,39.98,4.6,6
 1695,B06Y5XP1PJ,L'autre Peau Refillable Perfume & Cologne Fine Mist Atomizers with Metallic Exterior & Gla,L'AUTRE PEAU,Sin dato,6.99,4.2,4
-1696,B01ETWK52M,Watermark Beauty THE MAN 3.4 Fl Oz Eau De Toilette for Man Inspired by Jayz Gold Cologne,Watermark Beauty,Sin dato,,3.7,3
+1696,B01ETWK52M,Watermark Beauty THE MAN 3.4 Fl Oz Eau De Toilette for Man Inspired by Jayz Gold Cologne,Watermark Beauty,Hombre,,3.7,3
 1697,B010CZL894,"Nuparfums Group Black is Black Modern Oud Eau de Toilette, 3.4 Ounce",Nuparfums Group,Mujer,12.21,4.3,4
 1698,B0BM88VPGS,Victoria's Secret Pink Vanilla Swirl Scented Mist,Victoria's Secret,Sin dato,22.9,4.2,4
 1699,B00963Y4VS,Silver - Al-Rehab Eau De Natural Perfume Spray - 35 ml (1.15 fl. oz),Vetrarian,Mujer,10.0,4.1,3
@@ -1717,9 +1717,9 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1716,B000C21488,"BOSS NO. 1 Eau de Toilette, 3.3 Fl Oz",(sin marca),Hombre,78.31,4.4,4
 1717,B000C1W50U,Royal Copenhagen By Royal Copenhagen For Men. Cologne Spray 3.4 oz,Royal Copenhagen,Hombre,20.42,4.7,3
 1718,B014LYHMOM,"RawChemistry Pheromones For Men Pheromone Cologne Oil [Attract Women] - Bold, Extra Streng",RawChemistry,Hombre,29.9,4.1,4
-1719,B00B5MT8W8,Jean Paul Gaultier For Women Eau De Toilette Spray 3.3 Oz.,Jean Paul Gaultier,Sin dato,68.53,4.6,5
+1719,B00B5MT8W8,Jean Paul Gaultier For Women Eau De Toilette Spray 3.3 Oz.,Jean Paul Gaultier,Mujer,68.53,4.6,5
 1720,B000C2102I,"Cacharel Lou Lou Eau de Parfum Spray Perfume for Women, 1.7 Fl. Oz.",(sin marca),Mujer,,4.5,6
-1721,B00481S9TQ,"Nicole Miller Frenzy Perfume Eau de Parfum Spray for Women, 3.4 Ounce",Nicole Miller,Sin dato,,3.8,6
+1721,B00481S9TQ,"Nicole Miller Frenzy Perfume Eau de Parfum Spray for Women, 3.4 Ounce",Nicole Miller,Mujer,,3.8,6
 1722,B076VDSPDX,"Jo Malone Wood Sage & Sea Salt Cologne Spray for Women, 1 Ounce",Jo Malone,Mujer,53.67,4.4,5
 1723,B0C675745Y,"Salvatore Ferragamo Signorina Misteriosa Eau de Parfum, 3.4 Fluid Ounce",Salvatore Ferragamo,Mujer,36.58,4.6,3
 1724,B0172D07AU,SEAN JOHN 3AM Eau De Toilette Spray FOR MEN 3.4 Oz / 100 ml. BRAND NEW ITEM IN BOX SEALED,Sean John,Hombre,,4.6,4
@@ -1737,20 +1737,20 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1736,B0B3HN9L7V,"DKNY Be 100% Delicious Eau de Parfum Perfume Spray For Women, 1.0 Fl. Oz.",(sin marca),Mujer,33.9,4.4,5
 1737,B0BHLSLLRV,I AM ME Eau de Parfum - Clean Naturally Scented Womens Perfumes - A Dynamic Blend of Sweet,I AM,Mujer,49.99,4.3,6
 1738,B0BZ2N38TR,"Lattafa Ansaam Gold Eau De Parfum Spray for Unisex, 3.4 Ounce",Lattafa,Mujer,39.94,4.0,3
-1739,B000P3X7NO,Spirit By Antonio Banderas For Men. Eau De Toilette Spray 3.4 oz,Antonio Banderas,Sin dato,,4.6,5
+1739,B000P3X7NO,Spirit By Antonio Banderas For Men. Eau De Toilette Spray 3.4 oz,Antonio Banderas,Hombre,,4.6,5
 1740,B0BH9F6MV7,"Rebecca Minkoff Mini Travel Gift Set - Notes of Cardamom, Jasmine and Tonka Bean - Deliver",Rebecca Minkoff,Mujer,29.32,3.9,5
 1741,B09VB62JDF,"Birthday Gifts from Daughter & Son, Perfume Set Pack of 5 - Perfume Sampler Sets for Women",LOVERY,Mujer,34.99,4.1,1
 1742,B0CF18W13P,"Womens Perfume by Sandora Fragrances - Fresh, White Flowers, Sandalwood Scent 100ml (3.4oz",Sandora Fragrances,Mujer,19.99,4.0,2
 1743,B00FECDYYS,"Mariah Carey Mariah dreams 1.7 oz eea de parfum spray, Multicolor",Mariah Carey,Mujer,23.44,4.8,3
 1744,B01BNMXLB8,"GIORGIO ARMANI Code Profumo for Men Parfum Spray, 1 Ounce",GIORGIO ARMANI,Hombre,,4.6,6
 1745,B08H9XCGYV,Hugo Boss HUGO Now Eau de Toilette for Men,(sin marca),Hombre,,4.6,4
-1746,B086WW16D3,"Yeejok Travel Perfume Bottle, Refillable Perfume Atomizer for Travel 5ml, TSA-Approved Por",YEEJOK,Sin dato,13.99,4.4,4
+1746,B086WW16D3,"Yeejok Travel Perfume Bottle, Refillable Perfume Atomizer for Travel 5ml, TSA-Approved Por",YEEJOK,Unisex,13.99,4.4,4
 1747,B0BMDWVSX3,Yves Saint Laurent Y Eau De Toilette EDT For Men 0.33oz,Yves Saint Laurent,Hombre,37.95,4.4,5
 1748,B00OMRS9I2,"Xoxo Love Body Spray for Women, 8 Ounce",XOXO,Mujer,11.49,4.3,6
 1749,B07YXQ94ZQ,Versace Pour Homme Dylan Blue for Men 3.4 oz Perfumed Deodorant Spray,Versace,Hombre,,4.4,5
 1750,B08PYXGD73,BURBERRY Touch Eau De Parfum for Women,(sin marca),Mujer,,4.6,5
 1751,B009SZ8QZY,"Tommy Hilfiger Tommy Girl Eau De Prep Women Eau De Toilette Spray, 1.7 Ounce",Tommy Hilfiger,Mujer,40.0,4.3,4
-1752,B00I9UX4Y2,"Men's Deodorant & Fragrance Body Spray by Curve, Spicy Wood Magnetic Scent, 6 Oz",Curve,Sin dato,,4.2,3
+1752,B00I9UX4Y2,"Men's Deodorant & Fragrance Body Spray by Curve, Spicy Wood Magnetic Scent, 6 Oz",Curve,Hombre,,4.2,3
 1753,B005GOVYEG,Jessica Simpson I Fancy You Eau de Parfum Spray for Women,Jessica Simpson,Mujer,,4.2,5
 1754,B07VPRSG15,Miss Dior for Women by Dior 3.4 oz EDP Spray,Dior,Mujer,154.55,4.6,6
 1755,B07YD3VLMR,"Christian Dior Miss Dior Blooming Bouquet Eau De Toilette Spray for Women, 3.4 Ounce (Pack",Dior,Mujer,109.99,4.4,5
@@ -1799,7 +1799,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1798,B0B2KJ2DB6,"""Yeah! Eau de Parfum 3.4 oz Maison",Maison Alhambra,Sin dato,22.22,4.3,4
 1799,B089B1ZW2H,"Ducati Ice by Ducati - Fragrance for Men - Woody Aromatic Scent - Opens with Tangerine, Le",Ducati,Hombre,48.99,4.6,2
 1800,B0CD88FPFK,"Intense Elite La Passion for Women EDP, Eau de Parfum for Women 100ML (3.4Oz), Warming & L",INTENSE ELITE,Mujer,39.99,4.1,3
-1801,B08VC648FJ,"I Am The Queen for Women EDP - 100ML (3.4oz) | Everyday Essential | Cloves, Orange Blossom",Ard Al Zaafaran Perfumes,Sin dato,26.9,4.1,4
+1801,B08VC648FJ,"I Am The Queen for Women EDP - 100ML (3.4oz) | Everyday Essential | Cloves, Orange Blossom",Ard Al Zaafaran Perfumes,Mujer,26.9,4.1,4
 1802,B0B8QLHT75,"Lattafa Perfumes Velvet Rose for Unisex Eau de Parfum Spray, 3.4 Ounce",Lattafa Perfumes,Mujer,19.9,4.0,3
 1803,B0B3DSJBNH,Givenchy HOT COUTURE Eau De Parfum Spray 1.7 oz / 50 ml for Women,Givenchy,Mujer,63.85,4.5,3
 1804,B00ABOXUDY,"Bvlgari Man Eau de Toilette Spray for Men, 5 Ounce",BVLGARI,Hombre,,4.3,5
@@ -1808,15 +1808,15 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1807,B00J03X4EM,"Bvlgari Omnia Indian Garnet EDT Spray for Women, 2.2 Ounce",BVLGARI,Mujer,,4.3,3
 1808,B000L6IGS6,Clinique Happy .14 oz Perfume Spray Miniature,Clinique,Mujer,14.98,4.2,5
 1809,B0C31W2TQ6,"Acqua Di Parma Blue Mediterraneo Fico Di Amalfi Eau de Toilette Spray, 2.5 Ounce",Acqua Di Parma,Mujer,64.65,4.5,1
-1810,B003YFUMME,"Jean Paul Gaultier Le Male Terrible Eau De Toilette Extreme Spray for Men, 4.2 Ounce",Jean Paul Gaultier,Sin dato,,4.3,4
+1810,B003YFUMME,"Jean Paul Gaultier Le Male Terrible Eau De Toilette Extreme Spray for Men, 4.2 Ounce",Jean Paul Gaultier,Hombre,,4.3,4
 1811,B08WCTST1M,Robert Piguet Fracas Eau de Parfum for Women,(sin marca),Mujer,185.0,4.7,4
 1812,B000E7STVQ,Boucheron By Boucheron For Men. Eau De Toilette Spray 3.3 oz,(sin marca),Hombre,,4.4,5
 1813,B00CI2UX0K,Tom Ford by Tom Ford for Men. Eau De Toilette Spray 1.7-Ounce,Tom Ford,Hombre,,4.5,5
 1814,B09TG6YJRV,"Chopard Happy Felicia Roses For Women - Enchanting, Feminine, Floral Fruity Scent For Her ",Chopard,Mujer,34.5,4.5,4
 1815,B0C7KS176T,"SLOWCORP. Perfumed Foaming Hand Soap with Vitamin E, Aloe Vera, and Prebiotics for Bathroo",SLOWCORP.,Sin dato,9.99,3.9,3
 1816,B0BBSN4NY3,Velvet Oud Unisex EDP - Eau de Parfum 100ml(3.4 oz) | Oriental Alchemy | Velvety perfume w,Lattafa Perfumes,Mujer,25.29,3.9,4
-1817,B09JL6BKBW,FINN & CO. White Sand Luxury Rollerball Fragrance Oil for Women and Men (.34 oz / 10 mL),FINN & CO.,Sin dato,42.0,4.4,5
-1818,B09JL75NHB,FINN & CO. Black Sand Luxury Rollerball Fragrance Oil for Women and Men (.34 oz / 10 mL),FINN & CO.,Sin dato,42.0,4.1,2
+1817,B09JL6BKBW,FINN & CO. White Sand Luxury Rollerball Fragrance Oil for Women and Men (.34 oz / 10 mL),FINN & CO.,Unisex,42.0,4.4,5
+1818,B09JL75NHB,FINN & CO. Black Sand Luxury Rollerball Fragrance Oil for Women and Men (.34 oz / 10 mL),FINN & CO.,Unisex,42.0,4.1,2
 1819,B08PC9T7GC,Alfred Dunhill (G3010) Dunhill Fresh For Men. Eau De Toilette Spray 3.4 Ounces,Dunhill,Mujer,48.53,4.5,5
 1820,B007JP6XE6,"Dolce & Gabbana The One Sport Eau De Toilette Spray for Men, 3.3 Ounce",Dolce & Gabbana,Hombre,,4.5,4
 1821,B004Q87C12,"Cuba Royal By Cuba, 1.17-Ounce",Cuba,Hombre,13.71,4.3,3
@@ -1826,7 +1826,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1825,B004HFW2L4,"Davidoff Cool Water Night Dive Eau De Toilette, 4.2 oz.",(sin marca),Hombre,,4.6,5
 1826,B001O8MI2K,Hugo Boss Bottled Night Eau De Toilette,(sin marca),Hombre,,4.6,4
 1827,B09KSPXTJF,UULANFA Portable Mini Perfume Atomizer Bottles Empty Refillable Cologne Dispenser Pocket T,UULANFA,Sin dato,17.99,4.4,3
-1828,B08M7R9L8Y,100ml Amber Grand EDP Unisex Spray Fragrance Long-Lasting Perfume PARIS CORNER PERFUMES,Paris Corner,Sin dato,,4.2,2
+1828,B08M7R9L8Y,100ml Amber Grand EDP Unisex Spray Fragrance Long-Lasting Perfume PARIS CORNER PERFUMES,Paris Corner,Unisex,,4.2,2
 1829,B095BWX4JP,"Glasshouse Fragrances Rendezvous Eau De Parfum, Intense & Long Lasting Perfume, Amber & Or",GLASSHOUSE FRAGRANCES,Mujer,30.0,4.2,2
 1830,B000C213TS,Habit Rouge By Guerlain For Men. Eau De Toilette 6.7 Ounces,GUERLAIN,Hombre,,4.5,5
 1831,B076PLRSLQ,"Prada Candy Florale Eau De Toilette Spray, 1.7 Ounce",Prada,Mujer,45.8,4.6,5
@@ -1847,7 +1847,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1846,B00OYQ04CK,"Pitbull Woman Eau De Parfum, 3.4 oz.",Pitbull,Mujer,,4.6,2
 1847,B07P1WYT7H,"Guzilan Essential Oil Roller Bottles 10ml, Essential Clear Glass Roller Bottles For Travel",Guzilan,Sin dato,16.99,4.7,3
 1848,B07CM9H6DP,Lancôme Miracle Eau De Parfum - Womens Perfume,(sin marca),Mujer,109.0,4.7,3
-1849,B002XQ1R06,Ck Free By Calvin Klein For Men Edt Spray 3.4 Oz,(sin marca),Sin dato,,4.4,5
+1849,B002XQ1R06,Ck Free By Calvin Klein For Men Edt Spray 3.4 Oz,(sin marca),Hombre,,4.4,5
 1850,B00473ZDCQ,"Swiss Army Original Swiss Guard for Women Eau-de-toilette Spray, 3.4-Ounce",Swiss Army,Mujer,19.67,3.7,4
 1851,B07CCGY57J,Bijan Vip by Bijan for Men. Eau De Toilette Spray 2.5-Ounces,Bijan,Hombre,50.0,4.1,5
 1852,B003WDIN6A,Avon Rare Diamonds Eau De Parfum Spray,AVON,Mujer,,4.4,4
@@ -1871,7 +1871,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1870,B07BNFRHH9,"Tous By Tous Parfums For Men. Eau De Toilette Spray , Black/Black , 3.4 OZ",TOUS,Hombre,31.2,4.7,5
 1871,B072C5QCWZ,"RITUALS The Rituals of Hammam Mini Fragrance Sticks, 1.6 fl. oz",RITUALS,Sin dato,,3.3,5
 1872,B07B55CS88,"Rituals The Ritual of Happy Buddha Hair & Body Mist, 1.69 fl. oz.",RITUALS,Mujer,,4.5,5
-1873,B08R68JQPS,"John Varvatos JVXNJ Eau de Toilette, Cologne for Men",(sin marca),Sin dato,,4.6,4
+1873,B08R68JQPS,"John Varvatos JVXNJ Eau de Toilette, Cologne for Men",(sin marca),Hombre,,4.6,4
 1874,B0BVQWPFKT,"Ajmal Blu EDP Original, 90 mL, transparent",Ajmal,Mujer,25.0,4.4,3
 1875,B00SKXM14W,Realm Intense For Men 3.4 Ounce EDT Spray By Realm,FIVE STAR FRAGRANCE COMPANY,Hombre,,4.3,5
 1876,B07K94BP85,Michel Germain Sexual Paris Tendre Pour Homme Eau de Toilette Spray,(sin marca),Hombre,,4.3,3
@@ -1882,11 +1882,11 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1881,B06X6JKN8X,Can Can Burlesque For Women 8.0 oz Body Spray By Paris Hilton,Paris Hilton,Mujer,12.48,4.6,3
 1882,B01FQ2P67I,"Bvlgari Man Cologne Eau de Toilette Spray, Black, 3.4 Ounce",BVLGARI,Hombre,,4.6,4
 1883,B0017LSTUY,Colors by United Colors of Benetton for Men - 3.3 Ounce EDT Spray,Benetton,Hombre,,4.3,5
-1884,B00EFUYD7M,"Selena Gome Vivamore Eau de Parfum Spray for Women, 3.4 Fluid Ounce",Selena Gomez,Sin dato,,4.1,4
+1884,B00EFUYD7M,"Selena Gome Vivamore Eau de Parfum Spray for Women, 3.4 Fluid Ounce",Selena Gomez,Mujer,,4.1,4
 1885,B000C1W71M,"RIVE GAUCHE for Men By YVES SAINT LAURENT, Eau De Toilette Spray, 4.2 Ounces",Yves Saint Laurent,Hombre,,4.1,4
 1886,B083WRWQ53,Swiss Arabian Private Musk - Luxury Products From Dubai - Lasting And Addictive Personal P,Swiss Arabian,Mujer,30.76,4.1,2
 1887,B082L2PLQS,Homeyes 50ML 1.7 OZ Refillable Atomizer Spray Glass Empty Perfume Bottles for Travel,HOMEYES,Sin dato,6.99,4.4,1
-1888,B07CZ9BTKD,"BROSS INTENSE, Eau De Parfum Spray for Men, Seductive, 3.4 Fluid Ounce With Luxurious Sued",NovoGlow,Sin dato,16.59,3.9,4
+1888,B07CZ9BTKD,"BROSS INTENSE, Eau De Parfum Spray for Men, Seductive, 3.4 Fluid Ounce With Luxurious Sued",NovoGlow,Hombre,16.59,3.9,4
 1889,B08KJWTV1W,JIMMY CHOO Man Intense Eau de Toilette Jumbo Spray,(sin marca),Hombre,145.0,4.7,2
 1890,B01I1MUFQ2,Quorum 3.4 Edt Sp Fragrance:men,Quorum,Hombre,16.22,4.4,4
 1891,B07BC9JG5X,Prada Candy Gloss Eau de Toilette Spray for Women 2.7 Ounce,Prada,Mujer,54.18,4.6,5
@@ -1942,7 +1942,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1941,B08SS2ZMC1,"Tommy Bahama Maritime Triumph Spray Eau de Cologne for Men, 4.2 Fl. Oz.",(sin marca),Hombre,84.0,4.2,5
 1942,B004NRB01Y,"Paris Hilton by Paris Hilton Eau De Parfum Spray, 3.4 Fl. Oz",Paris Hilton,Mujer,28.96,4.7,4
 1943,B01M5DIVWY,Haramain White Oudh for Men and Women (Unisex) CPO - Concentrated Perfume Oil (Attar) 15 M,Al Haramain,Mujer,12.95,4.1,5
-1944,B00XYLQU92,4 oz - Bargz Perfume - Polo Sport Body Oil For Men Scented Fragrance,Bargz,Sin dato,19.99,4.3,3
+1944,B00XYLQU92,4 oz - Bargz Perfume - Polo Sport Body Oil For Men Scented Fragrance,Bargz,Hombre,19.99,4.3,3
 1945,B0BP2V5Q2R,"Christian Dior Miss Dior Eau De Parfum Spray for Women, 3.4 Fluid Ounce",Dior,Mujer,154.49,4.4,5
 1946,B01LBFU4TY,Calvin Klein Liquid Gold euphoria for Men,(sin marca),Hombre,,4.1,3
 1947,B07Y2Q1NZ3,Paco Rabanne Olympea Women's 2.7-ounce Eau de Parfum Spray (Tester),Paco Rabanne,Mujer,68.99,4.7,4
@@ -1967,7 +1967,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1966,B000DT7G2S,Indigo Wild Eau de Zum Roll-On Cologne - Frankincense and Myrrh - 1.3 fl oz,Indigo Wild,Mujer,25.0,4.5,5
 1967,B003HTX440,"Champs Cuba City Collection Eau de Toilette Spray Gift Set for Men, 1.17 Ounce",Cuba,Hombre,20.42,4.3,2
 1968,B00OWJXHGO,Rihanna Rogue Fragrance Set for Men,Rihanna,Hombre,,3.9,2
-1969,B00XYM5Q2I,"1 oz, Brown - Bargz Perfume - Oud Wood Body Oil For Men by Tom Ford Scented Fragrance",Bargz,Sin dato,,4.0,4
+1969,B00XYM5Q2I,"1 oz, Brown - Bargz Perfume - Oud Wood Body Oil For Men by Tom Ford Scented Fragrance",Bargz,Hombre,,4.0,4
 1970,B005TL5MR6,"Frank Olivier Sun Java Eau de Toilette Spray for Men, White, 2.5 Ounce",Frank Olivier,Hombre,29.85,4.4,5
 1971,B00ISWDTEG,"NUXE Relaxing Fragrant Water, 3.3 Fl oz",NUXE,Mujer,59.99,4.4,5
 1972,B00YJYFBBQ,Avon Haiku Kyoto Flower Eau de Parfum Spray 1.7 oz.,AVON,Mujer,17.96,4.6,4
@@ -1985,7 +1985,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 1984,B01CJ305Z0,"Vince Camuto Eterno Eau de Toilette Spray, 3.4 Fl Oz",(sin marca),Mujer,,4.2,3
 1985,B0BNPLT3XF,"Yves Saint Laurent Mon Paris Eau De Parfum Spray For Women, 3 Ounce",Yves Saint Laurent,Mujer,,4.6,3
 1986,B00RU1TE8Q,"Salvatore Ferragamo for Men - 3 Pc Gift Set 3.4oz EDT Spray, 2.5oz After Shave Balm, 2.5oz",Salvatore Ferragamo,Hombre,,4.6,5
-1987,B001FWXILU,Exceptional-because You Are by Exceptional Parfums For Men. Eau De Toilette Spray 3.4-Ounc,Exceptional Parfums,Sin dato,59.98,4.5,4
+1987,B001FWXILU,Exceptional-because You Are by Exceptional Parfums For Men. Eau De Toilette Spray 3.4-Ounc,Exceptional Parfums,Hombre,59.98,4.5,4
 1988,B007REBBW8,"Victoria's Secret Body Mist, Amber Romance, 8.4 Ounce",Victoria's Secret,Mujer,19.5,4.6,5
 1989,B0030UVRMW,"Fahrenheit Absolute by Christian Dior for Men Intense Eau De Toilette Spray, 3.40 Ounce",Dior,Hombre,,4.1,5
 1990,B0C6B56SQR,"Nautica Oceans Eau de Toilette Travel Spray, Vegan Formula, Fragrance, Aquatic Accords and",Nautica,Hombre,19.67,3.8,2
@@ -2013,7 +2013,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 2012,B09MPJC1GX,Ysatis By Givenchy For Women. Eau De Toilette Spray 3.3 Fl Ounces,Givenchy,Mujer,,4.4,3
 2013,B0048Z2DBW,"Frank Olivier Sun Java Eau de Parfum Spray for Women, 2.5 Ounce",Frank Olivier,Mujer,,4.5,3
 2014,B08D9GXFB6,"D-LOTUS Portable Mini Refillable Perfume Atomizer Bottle, Cologne Travel Atomizer, Refilla",D-LOTUS,Sin dato,,4.1,4
-2015,B097GSRLKJ,"skybottle Daily Moisturizing Body Lotion Perfumed with White Rose Lilac Scent, Fast Absorb",skybottle,Sin dato,22.0,4.4,5
+2015,B097GSRLKJ,"skybottle Daily Moisturizing Body Lotion Perfumed with White Rose Lilac Scent, Fast Absorb",skybottle,Unisex,22.0,4.4,5
 2016,B09SVCNBH5,Dolce & Gabbana K Men 1.6 oz EDP Spray,Dolce & Gabbana,Hombre,48.72,4.5,4
 2017,B09S7PFLYD,"Washwashah for Women EDP | Oriental Fruity-Floral Fragrance with Pink Pepper, Tuberose, Ne",Lattafa Perfumes,Mujer,25.0,4.2,4
 2018,B09B1QT1MH,"Malin + Goetz Fragrence Discovery Set– For Men & Women, Rich, Dark, Earthy Scents, Vegan &",(sin marca),Mujer,,4.1,4
@@ -2021,7 +2021,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 2020,B08RQ79WG6,"Britney Spears Fantasy Intense, Eau De Parfum ,Intense EDPI Spray for Women, 3.3 Fl Oz",BRITNEY SPEARS,Mujer,30.49,4.4,5
 2021,B09125G375,Aromolon Pheromone Perfume Spray for Women – Rose and Soft Spicy Scents for the Elegant La,Aromolon,Mujer,,3.4,5
 2022,B0055PPGQI,"Houbigant Fougere Royale Eau de Parfum Spray for Men, 3.3 Fl Oz",(sin marca),Hombre,,4.1,2
-2023,B01DV91CNA,"NEW Gossip Eau De Parfum Spray for Women, 3.4 Ounce 100 Ml - Impression of Victoria's Secr",PREFERRED FRAGRANCE,Sin dato,13.95,4.1,4
+2023,B01DV91CNA,"NEW Gossip Eau De Parfum Spray for Women, 3.4 Ounce 100 Ml - Impression of Victoria's Secr",PREFERRED FRAGRANCE,Mujer,13.95,4.1,4
 2024,B0C1GRV5JF,Marina de Bourbon Royal Marina Diamond by Princesse Eau de Parfum for Women - Amber Scent ,Marina de Bourbon,Mujer,24.71,4.3,4
 2025,B005OB54V0,"Beyonce Pulse Perfume, 1 Fluid Ounce",Beyoncé,Mujer,24.9,4.4,4
 2026,B000P22YM0,Lovely Sarah Jessica Parker By Sara Jessica Parker For Women. Eau De Parfum Spray 1.7 oz,Sarah Jessica Parker,Mujer,19.76,4.4,3
@@ -2058,14 +2058,14 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 2057,B08LSJ7H8T,Onisavings Romeriza Fragrance Body Oil Pink Sugary candied Perfume Oil Essential Uncut In ,Onisavings,Sin dato,55.99,4.3,4
 2058,B09598H68R,"Glasshouse Fragrances Lost In Amalfi Hand Duo Gift Set, Hand Cream & Hand Wash, Moisturizi",GLASSHOUSE FRAGRANCES,Sin dato,50.0,4.5,4
 2059,B09Q42HJYT,Dunhill Driven Black Eau de Parfum Cologne Spray For Men,(sin marca),Hombre,48.88,4.1,5
-2060,B000VOHSZA,"Xoxo Kundalini By Victory International For Women, Eau De Parfum Spray, 3.4-Ounce Bottle",XOXO,Sin dato,28.49,3.8,4
+2060,B000VOHSZA,"Xoxo Kundalini By Victory International For Women, Eau De Parfum Spray, 3.4-Ounce Bottle",XOXO,Mujer,28.49,3.8,4
 2061,B000VOHP8U,TABU EAU DE COLOGNE SPRAY IN VIOLIN BOTTLE 3.0 FL. OZ. BY DANA CLASSIC FRAGRANCES,Dana,Mujer,,4.5,3
 2062,B07G3B5HL8,Ted Lapidus Poker Face EDT Spray Men 3.4 oz,Ted Lapidus,Hombre,,4.3,3
-2063,B0BSMHQFR7,VACATION Eau de Toilette Perfume - Coconut Perfume for Women and Men - Clean Classic Perfu,VACATION,Sin dato,60.0,3.6,1
-2064,B0C1VQVZW6,"ANTOKX Travel Perfume Bottle Refillable Atomizer - 5ML Perfume Atomiser, Pocket Perfume Di",ANTOKX,Sin dato,11.99,4.6,0
+2063,B0BSMHQFR7,VACATION Eau de Toilette Perfume - Coconut Perfume for Women and Men - Clean Classic Perfu,VACATION,Unisex,60.0,3.6,1
+2064,B0C1VQVZW6,"ANTOKX Travel Perfume Bottle Refillable Atomizer - 5ML Perfume Atomiser, Pocket Perfume Di",ANTOKX,Unisex,11.99,4.6,0
 2065,B0BH9CGS4Z,"Rebecca Minkoff Gift Set - Notes of Cardamom, Jasmine and Tonka Bean - Delivers Sensuality",Rebecca Minkoff,Mujer,71.43,4.5,2
 2066,B082451QRX,Lattafa Rave Now edp 3.4 fl oz Unisex Perfume,Lattafa,Mujer,25.99,4.4,4
-2067,B09XFZGLCJ,Unconquered by Catherine Unconquered Eau de Parfum 3.4 fl. oz. Spray for Women,(sin marca),Sin dato,77.45,4.5,4
+2067,B09XFZGLCJ,Unconquered by Catherine Unconquered Eau de Parfum 3.4 fl. oz. Spray for Women,(sin marca),Mujer,77.45,4.5,4
 2068,B07FK6WW8G,"Hareem Al Sultan Concentrated Perfume Oil Gold for Women, 1.18 Ounce",KHADLAJ PERFUMES,Mujer,30.99,4.0,5
 2069,B097X2TPPQ,"Lattafa Ra'ed Silver for Unisex Eau de Parfum Spray, 3.4 Ounce",Lattafa Perfumes,Mujer,22.1,4.3,2
 2070,B00525YLYO,360 White by Perry Ellis for Men Gift Set,Perry Ellis,Hombre,,4.0,4
@@ -2075,7 +2075,7 @@ idx,parent_asin,titulo,marca,genero,precio,valoracion,reseñas_entrenamiento
 2074,B012G24HI0,Guess Seductive Homme FOR MEN by Guess - 3.4 oz EDT Spray by Vetrarian,GUESS,Hombre,,4.5,4
 2075,B09BXRXGHG,"Lattafa Perfumes Raghba EDP - Eau De Parfum 100ML (3.4 oz),Long-Lasting Spray I Agarwood (",Lattafa Perfumes,Sin dato,19.0,4.1,5
 2076,B0968CQ8PS,"English Laundry English Laundry Abbey Eau De Parfum Gift Set, 3.4 fl. oz.",(sin marca),Mujer,68.56,4.3,4
-2077,B0C5YFGVNP,"Ameerat Al Arab Unisex EDP - Eau De Parfum 100ml(3.4 oz) | Oriental, Exotic, Attractive | ",Asdaaf,Sin dato,19.0,4.3,4
+2077,B0C5YFGVNP,"Ameerat Al Arab Unisex EDP - Eau De Parfum 100ml(3.4 oz) | Oriental, Exotic, Attractive | ",Asdaaf,Unisex,19.0,4.3,4
 2078,B00IYDX372,Calvin Klein endless euphoria Eau de Parfum,(sin marca),Mujer,,3.5,5
 2079,B01LQ6S83C,Bijan By Bijan For Women. Eau De Toilette Spray 2.5 Oz,Bijan,Mujer,27.73,4.6,3
 2080,B09LDBS3JV,"Instyle Fragrances | Coastal Sage | Rollerball | Women’s Eau de Toilette | Vegan, Paraben ",Instyle Fragrances,Mujer,16.99,3.9,4
