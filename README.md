@@ -7,7 +7,7 @@ Este proyecto recomienda **el próximo perfume** que una persona va a buscar, se
 lo hizo. Para eso usa **SASRec**, un Transformer secuencial entrenado en PyTorch. Un dashboard en Streamlit muestra las
 recomendaciones y un **analista IA** (Gemini, plan gratuito) las explica sin modificarlas.
 
-🔗 **Dashboard:** _(pegar aquí el enlace de Streamlit Cloud)_
+**Dashboard:** https://recomendador-perfumes-grupo2.streamlit.app/
 
 ## Resultados (prueba, leave-last-out, ranking sobre los 2.125 perfumes)
 
@@ -59,7 +59,7 @@ interacción es una reseña (usuario, perfume, marca de tiempo).
 │   ├── lineas_base.py             Popularidad, reglas por lift, ítem–ítem (para comparar en el dashboard)
 │   ├── sistema.py                 Une modelo + datos; contexto estructurado del analista; asesor; perfil olfativo
 │   ├── analista.py                Analista IA: llamadas a la API, herramientas, tokens, costo y latencia
-│   ├── analista_prompt.md         Prompt de sistema VERSIONADO (v1.0 → v1.4, con historial de cambios)
+│   ├── analista_prompt.md         Prompt de sistema VERSIONADO (v1.0 → v1.5, con historial de cambios)
 │   └── fichas.py                  Cruce con las fichas olfativas
 └── pruebas/
     ├── pruebas_honestidad.py      5 pruebas de honestidad + 1 de re-consulta al modelo
