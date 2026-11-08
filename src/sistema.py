@@ -1,5 +1,6 @@
 """Reúne modelo, datos y líneas base. Lo usan el dashboard y las herramientas del analista."""
 import os
+import re
 from collections import Counter
 
 import numpy as np
@@ -19,6 +20,24 @@ def _limpio(v):
     return v
 
 
+# Género: en el notebook se toma primero la categoría de Amazon y, si no dice nada, el título. Algunos perfumes están en
+# una categoría equivocada (p. ej. "Bvlgari Aqua For Men" en la de mujer). En el dashboard manda el título cuando lo dice
+# explícitamente; el original queda en la columna genero_amazon. No cambia el modelo ni las métricas (SASRec no usa género).
+_MUJER = re.compile(r"\bwom[ae]n'?s?\b|\bfor her\b|\bpour femme\b|\bfemme\b|\bladies\b", re.I)
+_HOMBRE = re.compile(r"\bm[ae]n'?s?\b|\bfor him\b|\bpour homme\b|\bhomme\b", re.I)
+_UNISEX = re.compile(r"\bunisex\b", re.I)
+
+
+def genero_por_titulo(titulo):
+    t = re.sub(r"\[[^\]]*\]", " ", titulo if isinstance(titulo, str) else "")   # "[Attract Men]" no indica el género
+    if _UNISEX.search(t):
+        return "Unisex"
+    m, h = bool(_MUJER.search(t)), bool(_HOMBRE.search(t))
+    if m and h:
+        return "Unisex"
+    return "Hombre" if h else "Mujer" if m else None
+
+
 def lista_acordes(texto):
     if not isinstance(texto, str):
         return []
@@ -32,6 +51,9 @@ class Sistema:
         self.config = ck["config"]
         self.n_items = ck["n_items"]
         self.items = pd.read_csv(r("data", "mapa_items.csv")).set_index("idx")
+        self.items["genero_amazon"] = self.items["genero"]
+        self.items["genero"] = [genero_por_titulo(t) or g for t, g in zip(self.items["titulo"], self.items["genero"])]
+        self.generos_corregidos = int((self.items["genero"] != self.items["genero_amazon"]).sum())
         fichas = r("data", "fichas_olfativas.csv")
         self.fichas = pd.read_csv(fichas).set_index("idx") if os.path.exists(fichas) else pd.DataFrame()
         sec = pd.read_parquet(r("data", "secuencias.parquet"))
@@ -78,6 +100,17 @@ class Sistema:
     def recomendar(self, historial, k=10):
         return [{"puesto": p + 1, "idx": i, "puntaje": round(s, 3), "probabilidad": round(pr, 4)}
                 for p, (i, s, pr) in enumerate(M.recomendar(self.modelo, historial, k))]
+
+    def recomendar_por_genero(self, historial, genero, k=10, n_candidatos=300):
+        """Vista filtrada: los primeros k candidatos de SASRec del género pedido (o unisex), en el orden de SASRec.
+        No es la recomendación evaluada; esa es recomendar()."""
+        out = []
+        for r in self.recomendar(historial, n_candidatos):
+            if self.items.at[r["idx"], "genero"] in (genero, "Unisex"):
+                out.append({**r, "puesto_sasrec": r["puesto"], "puesto": len(out) + 1})
+                if len(out) == k:
+                    break
+        return out
 
     def atencion(self, historial):
         hist, w = M.atencion(self.modelo, historial)

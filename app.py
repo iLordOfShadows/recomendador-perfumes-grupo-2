@@ -285,12 +285,23 @@ with tab_rec:
                 tarjeta(i, extra=f"{n + 1}. ")
     with der:
         st.subheader("Top 10 de SASRec")
+        vista = st.radio("Género", ["Todos (SASRec puro)", "Hombre", "Mujer"], horizontal=True, key="vista_genero",
+                         help="Todos: el top 10 tal como se evalúa en el informe. Hombre o Mujer: los primeros 10 "
+                              "candidatos de SASRec de ese género (o unisex), en el mismo orden del modelo.")
+        if vista.startswith("Todos"):
+            lista = recs
+        else:
+            lista = s.recomendar_por_genero(historial, vista, 10)
+            st.caption(f"Vista filtrada ({vista.lower()} y unisex): el orden es el de SASRec, pero esta lista no es la "
+                       "evaluada. Las métricas y el acierto de arriba corresponden a la vista Todos.")
         if oculto is not None:
             st.caption("Perfume que la persona reseñó después (oculto para el modelo):")
-            tarjeta(oculto, clase="acierto" if oculto in ids_recs else "")
-        for r in recs:
+            ids_lista = [r["idx"] for r in lista]
+            tarjeta(oculto, clase="acierto" if oculto in ids_lista else "")
+        for r in lista:
             marca = " (acierto)" if r["idx"] == oculto else ""
-            tarjeta(r["idx"], extra=f"#{r['puesto']}{marca} · {r['probabilidad']:.1%} · ",
+            en_sasrec = f" (#{r['puesto_sasrec']} en SASRec)" if "puesto_sasrec" in r else ""
+            tarjeta(r["idx"], extra=f"#{r['puesto']}{en_sasrec}{marca} · {r['probabilidad']:.1%} · ",
                     clase="acierto" if r["idx"] == oculto else "")
     st.subheader("¿Qué habrían recomendado las líneas base?")
     lb = s.lineas_base(historial)
@@ -492,6 +503,7 @@ with tab_eval:
 
 # ------------------------------------------------------------------ 5. acerca de
 with tab_info:
+    n_catalogo = f"{s.n_items:,}".replace(",", ".")
     st.markdown(f"""
 **Base.** Amazon Reviews 2023 (McAuley Lab, UCSD), categorías *Beauty and Personal Care* y *All Beauty*, solo perfumes.
 5-core: 39.032 reseñas, 5.398 usuarios, 2.125 perfumes (excepción al mínimo de 50.000 autorizada por el profesor).
@@ -500,6 +512,11 @@ Cita: Hou, Y. et al. (2024). *Bridging Language and Items for Retrieval and Reco
 **Modelo.** SASRec en PyTorch — d = {s.config['d']}, {s.config['bloques']} bloques, {s.config['cabezas']} cabezas,
 dropout {s.config['dropout']}; entropía cruzada sobre todo el catálogo; elegido con validación (leave-last-out).
 Se carga en CPU desde `modelos/sasrec.pt`.
+
+**Género.** Sale de la categoría de Amazon y, si no dice nada, del título. Como algunos perfumes están en la categoría
+equivocada (por ejemplo, "Bvlgari Aqua For Men" en la de mujer), en el dashboard manda el título cuando lo dice
+explícitamente ("for men", "pour homme", "unisex"…): se corrigieron {s.generos_corregidos} de {n_catalogo} perfumes. SASRec no usa el
+género, así que esto no cambia el modelo ni las métricas; sí mejora el filtro del asesor y la vista por género.
 
 **Fichas olfativas.** Dataset público de Parfumo redistribuido por TidyTuesday (2024-12-10; origen Kaggle, Olga G. Miufana); no se hizo scraping propio. Notas y acordes cruzados por marca y nombre; la ocasión no viene de Parfumo: la estimó una IA (Claude Code) a partir de las notas, por lo que es aproximada
 (`src/fichas.py`).
