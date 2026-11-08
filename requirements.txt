@@ -9,3 +9,4 @@ google-genai>=1.30
 anthropic>=0.40
 mlxtend==0.23.4
 openpyxl>=3.1
+tabulate>=0.9
