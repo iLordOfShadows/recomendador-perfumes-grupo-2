@@ -43,9 +43,18 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
+# Subir este número cuando cambie src/sistema.py: Streamlit guarda en caché el objeto ya creado y, si no, seguiría usando
+# la versión anterior aunque el código haya cambiado.
+VERSION_SISTEMA = 2
+
+
 @st.cache_resource(show_spinner="Cargando el modelo SASRec en CPU…")
-def cargar():
+def _cargar(version):
     return Sistema(".")
+
+
+def cargar():
+    return _cargar(VERSION_SISTEMA)
 
 
 @st.cache_data(show_spinner=False)
@@ -154,7 +163,7 @@ ETIQUETA_OCASION = {
 
 
 @st.cache_data(show_spinner=False)
-def correr_asesor(tengo, genero, ocasiones, acordes, notas, precio_max, explorar):
+def correr_asesor(tengo, genero, ocasiones, acordes, notas, precio_max, explorar, version=VERSION_SISTEMA):
     return cargar().asesor(list(tengo), genero, ocasiones, acordes, notas, precio_max, explorar, k=5)
 
 
@@ -528,7 +537,7 @@ Se carga en CPU desde `modelos/sasrec.pt`.
 
 **Género.** Sale de la categoría de Amazon y, si no dice nada, del título. Como algunos perfumes están en la categoría
 equivocada (por ejemplo, "Bvlgari Aqua For Men" en la de mujer), en el dashboard manda el título cuando lo dice
-explícitamente ("for men", "pour homme", "unisex"…): se corrigieron {s.generos_corregidos} de {n_catalogo} perfumes. SASRec no usa el
+explícitamente ("for men", "pour homme", "unisex"…): se corrigieron {getattr(s, 'generos_corregidos', 90)} de {n_catalogo} perfumes. SASRec no usa el
 género, así que esto no cambia el modelo ni las métricas; sí mejora el filtro del asesor y la vista por género.
 
 **Fichas olfativas.** Dataset público de Parfumo redistribuido por TidyTuesday (2024-12-10; origen Kaggle, Olga G. Miufana); no se hizo scraping propio. Notas y acordes cruzados por marca y nombre; la ocasión no viene de Parfumo: la estimó una IA (Claude Code) a partir de las notas, por lo que es aproximada
