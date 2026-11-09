@@ -63,6 +63,16 @@ def pca_embeddings():
 s = cargar()
 
 
+def error_api(e):
+    t = str(e)
+    if any(c in t for c in ("503", "UNAVAILABLE", "overloaded")):
+        return ("Gemini está con alta demanda en este momento (error 503, temporal). Se reintentó varias veces y con "
+                "modelos de respaldo sin éxito. Espera unos segundos y presiona Reintentar.")
+    if any(c in t for c in ("429", "RESOURCE_EXHAUSTED")):
+        return "Se alcanzó el límite de consultas por minuto del plan gratuito. Espera un minuto y presiona Reintentar."
+    return f"No se pudo llamar a la API: {t[:300]}"
+
+
 EMOJIS = re.compile("[\U0001F000-\U0001FAFF\u2600-\u27BF\u2B00-\u2BFF\uFE0F\u200D]")
 
 
@@ -235,7 +245,7 @@ with tab_ase:
                         try:
                             st.session_state.ase_analisis = an.explicar_asesor()
                         except Exception as e:
-                            st.session_state.ase_analisis = {"texto": f"No se pudo llamar a la API ({e}).",
+                            st.session_state.ase_analisis = {"texto": error_api(e),
                                                              "tokens_entrada": 0, "tokens_salida": 0,
                                                              "costo_equivalente_usd": 0, "latencia_s": 0}
                 a = st.session_state.get("ase_analisis")
@@ -335,7 +345,8 @@ with tab_ia:
                 try:
                     st.session_state.analisis = an.analisis_automatico()
                 except Exception as e:
-                    st.error(f"No se pudo llamar a la API: {e}")
+                    st.error(error_api(e))
+                    st.button("Reintentar", key="reintentar_analisis")
                     st.stop()
         a = st.session_state.analisis
         with st.container(border=True):
@@ -344,6 +355,8 @@ with tab_ia:
             st.caption(f"{a['tokens_entrada']:,} tokens de entrada · {a['tokens_salida']:,} de salida · "
                        f"costo USD {a['costo_usd']:.4f} (equivalente pagado USD {a['costo_equivalente_usd']:.4f}) · "
                        f"{a['latencia_s']} s")
+            if a.get("modelo_respondio") and a["modelo_respondio"] != modelo_llm:
+                st.caption(f"El modelo principal estaba saturado; respondió el modelo de respaldo `{a['modelo_respondio']}`.")
         st.markdown("##### Pregúntale al analista")
         st.caption("Ejemplos: *¿Por qué recomienda el #1?* · *¿Qué pasaría si además compra Nautica Voyage?* · "
                    "*¿Coincide con lo que haría la popularidad?*")
@@ -363,8 +376,8 @@ with tab_ia:
                 try:
                     r = an.preguntar(q)
                 except Exception as e:
-                    r = {"texto": f"No se pudo llamar a la API ({e}). Si es un límite del plan gratuito, espera "
-                                  "un minuto y vuelve a preguntar.", "herramientas": [], "tokens_entrada": 0,
+                    r = {"texto": error_api(e).replace("presiona Reintentar", "vuelve a preguntar"),
+                         "herramientas": [], "tokens_entrada": 0,
                          "tokens_salida": 0, "costo_usd": 0.0, "latencia_s": 0}
             st.session_state.chat.append({"rol": "assistant", "texto": r["texto"], "herramientas": r["herramientas"],
                                           "meta": f"{r['tokens_entrada']:,} + {r['tokens_salida']:,} tokens · "

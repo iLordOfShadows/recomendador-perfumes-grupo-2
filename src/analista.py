@@ -24,6 +24,18 @@ MODELO_DEFECTO = os.environ.get("MODELO_GEMINI", "gemini-3.1-flash-lite")
 if MODELO_DEFECTO not in MODELOS:          # otro modelo Gemini disponible en la cuenta (mismo precio de referencia)
     MODELOS[MODELO_DEFECTO] = dict(MODELOS["gemini-3.1-flash-lite"])
 
+# Si Gemini responde "alta demanda" (503) o "límite" (429), se reintenta con espera creciente y luego se prueba con
+# modelos de respaldo. El modelo que respondió queda en el registro de cada llamada.
+REINTENTOS = (2, 5, 10)                    # segundos de espera entre intentos
+RESPALDO_GEMINI = [m.strip() for m in os.environ.get("MODELOS_RESPALDO", "gemini-2.5-flash-lite,gemini-2.5-flash").split(",")
+                   if m.strip()]
+
+
+def es_transitorio(e):
+    t = str(e)
+    return any(c in t for c in ("503", "UNAVAILABLE", "429", "RESOURCE_EXHAUSTED", "500", "INTERNAL", "overloaded"))
+
+
 HERRAMIENTAS = [
     {
         "name": "recomendar_con_historial",
@@ -108,8 +120,25 @@ class _Gemini:
                   for ll, salida in resultados]
         self.contenido.append(self.t.Content(role="user", parts=partes))
 
+    def _generar(self):
+        modelos = [self.modelo] + [m for m in RESPALDO_GEMINI if m != self.modelo]
+        ultimo = None
+        for n, modelo in enumerate(modelos):
+            esperas = REINTENTOS if n == 0 else (3,)
+            for espera in (0,) + esperas:
+                time.sleep(espera)
+                try:
+                    r = self.cliente.models.generate_content(model=modelo, contents=self.contenido, config=self.config)
+                    self.modelo_usado = modelo
+                    return r
+                except Exception as e:          # noqa: BLE001 — se reintenta solo si el error es temporal
+                    ultimo = e
+                    if not es_transitorio(e):
+                        break
+        raise ultimo
+
     def llamar(self):
-        r = self.cliente.models.generate_content(model=self.modelo, contents=self.contenido, config=self.config)
+        r = self._generar()
         cand = r.candidates[0].content if r.candidates and r.candidates[0].content else None
         if cand is not None:
             self.contenido.append(cand)          # conserva las firmas de razonamiento que exige Gemini 3
@@ -218,6 +247,15 @@ class Analista:
 
     # ---------- llamada con bucle de herramientas ----------
     def preguntar(self, texto, max_vueltas=4):
+        lista = self.conv.contenido if hasattr(self.conv, "contenido") else self.conv.mensajes
+        n_antes = len(lista)
+        try:
+            return self._preguntar(texto, max_vueltas)
+        except Exception:
+            del lista[n_antes:]                # si la API falla, la conversación queda como estaba
+            raise
+
+    def _preguntar(self, texto, max_vueltas):
         self.conv.agregar_usuario(texto)
         usadas = []
         inicio = time.perf_counter()
@@ -228,7 +266,8 @@ class Analista:
             lat = time.perf_counter() - t0
             tin += r["tokens_entrada"]
             tout += r["tokens_salida"]
-            self.registro.append({"tipo": "análisis" if texto == "ANALISIS_AUTOMATICO" else "chat", "modelo": self.modelo,
+            self.registro.append({"tipo": "análisis" if texto == "ANALISIS_AUTOMATICO" else "chat",
+                                  "modelo": getattr(self.conv, "modelo_usado", self.modelo),
                                   "tokens_entrada": r["tokens_entrada"], "tokens_salida": r["tokens_salida"],
                                   "costo_usd": 0.0 if MODELOS[self.modelo]["gratis"] else costo(self.modelo, r["tokens_entrada"], r["tokens_salida"]),
                                   "costo_equivalente_pagado_usd": costo(self.modelo, r["tokens_entrada"], r["tokens_salida"]),
@@ -247,4 +286,5 @@ class Analista:
         eq = costo(self.modelo, tin, tout)
         return {"texto": texto or "(El modelo no devolvió texto.)", "herramientas": usadas, "tokens_entrada": tin,
                 "tokens_salida": tout, "costo_usd": 0.0 if MODELOS[self.modelo]["gratis"] else eq,
-                "costo_equivalente_usd": eq, "latencia_s": round(time.perf_counter() - inicio, 2)}
+                "costo_equivalente_usd": eq, "latencia_s": round(time.perf_counter() - inicio, 2),
+                "modelo_respondio": getattr(self.conv, "modelo_usado", self.modelo)}
