@@ -132,7 +132,8 @@ class _Gemini:
                     self.modelo_usado = modelo
                     return r
                 except Exception as e:          # noqa: BLE001 — se reintenta solo si el error es temporal
-                    ultimo = e
+                    if n == 0 or ultimo is None:
+                        ultimo = e              # se informa el error del modelo principal, no el de un respaldo
                     if not es_transitorio(e):
                         break
         raise ultimo
